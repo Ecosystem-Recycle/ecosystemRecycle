@@ -14,28 +14,34 @@
 </head>
 
 <body>
-    <!-- <header>
-        <div>
-            <a href="#">
-                <img src="../Projeto Eco System & Recycle/img/logoVersaoHorizontal.png" alt="Logomarca Eco System & Recycle">
-            </a>
-            <nav>
-                <a href="#">Página inicial</a>
-                <a href="#">Nossa História</a>
-                <a href="#">Informativo</a>
-                <a href="#">Serviços</a>
-                <a href="#">Seja um Parceiro</a>
-                <a href="#">Contato</a>
-                <a class="botaoEntrar" href="#">Entrar</a>
+
+    <header>
+        <div class="div_headerPosition wrapper">
+            <img src="../Projeto Eco System & Recycle/img/logo_vertical.png" alt="Logomarca">
+            <a onclick="mostrarMenu()" class="menu_barras" id="menu_barras" href="#" aria-label="Abrir o menu do Header"
+                aria-expanded="false" aria-controls="menu_links" aria-haspopup="true"> <svg
+                    xmlns="http://www.w3.org/2000/svg" height="1em"
+                    viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                    <path
+                        d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+                </svg></a>
+            <nav id="menu_links">
+                <a href="#" class="underline">página inicial</a>
+                <a href="#" class="underline">nossa história</a>
+                <a href="#" class="underline">informativo</a>
+                <a href="#" class="underline">serviços</a>
+                <a href="#" class="underline">dúvidas</a>
+                <a href="#" class="underline">contato</a>
+                <a href="#" class="btn_entrar">entrar</a>
             </nav>
         </div>
-    </header> -->
+    </header>
 
     <main>
         <h1>Serviços - Eco System & Recycle</h1>
         <section>
             <div>
-                <img src="../Projeto Eco System & Recycle/img/logoVersaoVertical.png"
+                <img class="logo" src="../Projeto Eco System & Recycle/img/logoVersaoVertical.png"
                     alt="Logomarca Eco System & Recycle">
             </div>
             <img src="../Projeto Eco System & Recycle/img/lixoEletronicoServiços.jpeg" alt="Banner de Lixo Eletrônico">
@@ -79,6 +85,62 @@
             </div>
         </section>
     </main>
+
+    <footer>
+        <div class="div_footerPosition wrapper">
+            <div class="foot_contats">
+                <div>
+                    <img src="../img/icone_email_footer.png" alt="Icone de uma carta com um @, simbolizando o email">
+                    <p>contato@ecosystemrecycle.com.br</p>
+                </div>
+                <div>
+                    <img src="../img/icone_whats_footer.png" alt="Icone do whatsapp">
+                    <p>(11) 99999-9999</p>
+                </div>
+                <div>
+                    <p>R. Niterói, 180 - Centro</p>
+                    <p>São Caetano do Sul - SP, 09510-200</p>
+                </div>
+            </div>
+            <div class="foot_menu">
+                <span>menu</span>
+                <ul>
+                    <a href="#">
+                        <li>página inicial</li>
+                    </a>
+                    <a href="#">
+                        <li>nossa história</li>
+                    </a>
+                    <a href="#">
+                        <li>informativo</li>
+                    </a>
+                    <a href="#">
+                        <li>serviços</li>
+                    </a>
+                    <a href="#">
+                        <li>dúvidas</li>
+                    </a>
+                    <a href="#">
+                        <li>contato</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="foot_midiasBoletim">
+                <span>Boletim Informativo</span>
+                <div class="foot_botetim">
+                    <form>
+                        <input type="email" name="email" placeholder="...Digite seu email" />
+                    </form>
+                    <a href="#" class="btn_enviar">Enviar</a>
+                </div>
+                <div class="ico_sociais">
+                    <a href="#"><img src="../img/icone_instagran_footer.png" alt="Icone do Instagran"></a>
+                    <a href="#"><img src="../img/icone_face_footer.png" alt="Icone do Facebook"></a>
+                    <a href="#"><img src="../img/icone_twitter_footer.png" alt="Icone do Twitter"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 </body>
 
