@@ -26,3 +26,22 @@ addEventListener("resize", () => {
         menu.style.display = "none";
     }
 });
+
+//Função de passar Slides do carrousel -> HOME
+var swiper = new Swiper(".swiper", {
+    cssMode: true,
+    loop: true,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+    pagination: {
+      el: ".swiper-pagination",
+    },
+    keyboard: true,
+  });
+  
