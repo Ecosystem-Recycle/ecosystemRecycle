@@ -173,6 +173,29 @@ h1{
     padding: 0 300px;
 }
 
+.lixo_conteudo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.lixo_conteudo h5{
+    font-family: var(--font1);
+    font-size: 22px;
+    font-weight:bolder ;
+}
+
+.lixo_conteudo p{
+    font-family: var(--font2);
+    font-size: 18px;
+}
+
+.lixo_conteudo a{
+    border: 3px solid #642966;
+    border-radius: 30px;
+    padding: 0 50px;
+    color: #642966;
+}
+
 footer{
 	background: var(--verde1);
 }
