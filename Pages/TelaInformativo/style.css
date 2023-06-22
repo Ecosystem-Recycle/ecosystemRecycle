@@ -132,11 +132,15 @@ main {
 }
 
 section {
-    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+
 
 
 }
-
+.section_h2{
+    display: flex;
+}
 .banner_fundo {
     display: flex;
     width: 100%;
@@ -147,8 +151,8 @@ section {
 
 
 .banner_fundobanner_fundo {
-    display: flex;
-    justify-content: center;
+    /* display: flex; */
+    /* justify-content: center; */
     background: url(.banner_fundo);
     width: 100%;
     height: 1400px;
@@ -162,29 +166,57 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* width: 300px; */
+    /* height: 200px; */
     /* height: 100vh; */
 
   
 
 }
-.lixo1_filho{
-    
 
-
-}
-
-h2{
+.lixo2 {
     display: flex;
-    background: center;
+    flex-direction: column;
+    align-items: center;
 }
+.lixo_filho{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+h2{
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    font-family: var(--font1);
+    font-size: 50px;
+}
+p{
+    background-color: aquamarine;
+    font-family: var(--font2);
+    text-align: center;
+    width: ;
+    /* display: flex; */
+}
+
+.simbolo2{
+    width: 150px;
+    width: 200px;
+
+
+}
+
+
 
 .video_logistiaca {
-    /* width:100%;  */
-    width: fit-content;
+    align-items: center;
+    
+
     height: 315px;
 }
 .logistica{
-    display: flex;
+
 }
 
 
