@@ -106,42 +106,78 @@ h1{
     overflow: hidden;
 }
 
-/* #### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
+.separacao_conteudo {
+    display: flex;
+    
+}
+aside{
+    width: 20%;
+}
+
+aside ul{
+    list-style-type: none;
+
+}
+
+.linha2{
+border-radius: 8px;
+margin-top: 5px;
+color: rgb(144, 72, 211);
+border: 2px solid rgb(133, 35, 224);
+width: 130px;
+background-color: rgb(197, 166, 226);
+
+}
+
+.menu_direito{
+    width: 80%;
+} 
 
 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
+.link_menu_direito > a:nth-child(2){
+    color: rgb(170, 97, 238);
+    border:2px solid blueviolet;
+    border-radius: 8px;
+ 
+}   
 
+.nada_consta{
+    border: 3px solid #9C9C9C;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin-bottom: 20px ;
+}
 
-################################################## */
+.nada_consta p{
+    text-align: center;
+    margin-top: 200px;
+    color: #9C9C9C;
+    font-size: 25px;
+
+}
+.nada_consta img{
+    width: 150px;
+    height: 150px;
+
+}
+.nada_consta a{
+   background-color: blueviolet; 
+    width: 50px;
+   height: 50px;
+   padding: ;
+}
+.menu_direito a{
+    height: 80px;
+    font-size: 20px;
+    margin-top: 80px;
+    color: #9C9C9C;
+}
+.menu_direito p{
+    color: #9C9C9C;
+}
 
 footer{
 	background: var(--verde1);
