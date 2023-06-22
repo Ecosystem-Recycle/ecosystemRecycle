@@ -177,6 +177,10 @@ h1{
     padding: 0 300px;
 }
 
+.sobre_O_lixo{
+    padding-bottom: 160px;
+}
+
 .lixo_conteudo{
     display: flex;
     justify-content: space-between;
@@ -216,9 +220,17 @@ h1{
     align-items: flex-start;
 }
 
+
+.doador_parceiro{
+    padding-bottom: 160px;
+}
+
 .conteudo_parceirosDoador{
     display: flex;
     justify-content: space-between;
+
+
+    color: var(--branco);
 }
 
 .cad_doador{
@@ -227,6 +239,135 @@ h1{
 
 .cad_parceiro{
     background-image: url(../../img/home_sejaparceiro.png);
+}
+
+
+.cad_doador, .cad_parceiro{
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    text-align: center;
+
+    max-width: 650px;
+    width: 40%;
+    height: 600px;
+
+    border-radius: 25px;
+}
+
+
+.cad_doador h3, .cad_parceiro h3 {
+    font-family: var(--font1);
+    font-size: 35px;
+    text-transform: uppercase;
+    padding-top: 100px;
+}
+
+.cad_doador p, .cad_parceiro p{
+    padding: 0 50px 50px 50px;
+    font-family: var(--font2);
+    font-size: 16px;
+}
+
+
+.cad_doador a, .cad_parceiro a{
+    background-color: var(--verde1);
+    width: 100%;
+
+    font-size: 20px;
+    font-weight: bold;
+    font-family: var(--font2);
+    text-transform: uppercase;
+    color: var(--branco);
+
+    padding: 10px 0;
+    border-top: 7px solid var(--branco);
+
+    border-end-end-radius: 25px;
+    border-end-start-radius: 25px;
+}
+
+.Porcentagem_Descarte{
+    background-image: url(../../img/home_bg_porcentagem.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: var(--branco);
+
+    margin-bottom: 160px;
+}
+
+.conteudo_porcentagem{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.conteudo_porcentagem h3{
+    font-family: var(--font1);
+    font-size: 35px;
+    text-align: end;
+    padding: 15px 0;
+}
+
+.conteudo_porcentagem p{
+    margin-left: 450px;
+    font-family: var(--font2);
+    font-size: 16px;
+}
+
+.conteudo_porcentagem p:nth-child(2){
+    padding-bottom: 20px;
+}
+
+.conteudo_porcentagem a{
+    color: var(--branco);
+    font-family: var(--font2);
+    font-size: 14px;
+    font-weight: 900;
+
+    text-transform: uppercase;
+
+    padding: 10px 0;
+}
+
+.exe_conteudo{
+    display: flex;
+    justify-content: space-between;
+
+    padding-bottom: 180px;
+}
+
+
+
+.exe_conteudo div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    max-width: 600px;
+    width: 45%;
+}
+
+.exe_conteudo img{
+    width: 45%;
+    max-width: 600px;
+}
+.exe_conteudo div h4{
+    font-family: var(--font1);
+    font-size: 28px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.exe_conteudo div p{
+    font-family: var(--font2);
+    font-size: 18px;
 }
 
 
