@@ -109,6 +109,8 @@ h1{
 
 .bannerCarrousel{
     position: relative;
+    display: flex;
+    justify-content: center;
 }
 
 .swiper{
@@ -124,6 +126,8 @@ h1{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 80%;
+    max-width: 1522px;
 
     top: 150px;
     z-index: 2;
@@ -180,21 +184,53 @@ h1{
 
 .lixo_conteudo h5{
     font-family: var(--font1);
-    font-size: 22px;
+    font-size: 25px;
     font-weight:bolder ;
+    padding-top: 200px;
 }
 
 .lixo_conteudo p{
     font-family: var(--font2);
     font-size: 18px;
+    /* margin-top: 70px; */
 }
 
 .lixo_conteudo a{
-    border: 3px solid #642966;
+    border: 7px solid #642966;
     border-radius: 30px;
-    padding: 0 50px;
+    padding: 5px 50px;
     color: #642966;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    /* margin-top: 70px; */
 }
+
+
+.lixo_conteudo div{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.conteudo_parceirosDoador{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cad_doador{
+    background-image: url(../../img/home_sejaDoador.png);
+}
+
+.cad_parceiro{
+    background-image: url(../../img/home_sejaparceiro.png);
+}
+
+
+
 
 footer{
 	background: var(--verde1);
