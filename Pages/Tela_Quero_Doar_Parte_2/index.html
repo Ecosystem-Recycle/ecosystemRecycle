@@ -43,7 +43,7 @@
         <section>
             <div class="wrapper separacao_conteudo">
                 <aside>
-                    <ul>
+                    <ul class="menu_lateral">
                         <a href="">
                             <li>Quero Doar</li>
                         </a>
@@ -58,37 +58,102 @@
                 <div class="menu_direito">
                     <h2>Quero Doar!</h2>
                     <p>Aqui você pode detalhar e categorizar as informações dos produtos que gostaria de cadastrar.</p>
-                </div>
+                <!-- </div> -->
                 <div class="nada_consta">
-                    <form>
-                        <label for="fname">Nome:</label>
-                        <input type="text" id="fname" name="fname">
-                        <label for="lname">Marca:</label>
-                        <input type="text" id="lname" name="lname"> <br> 
-                    </form>
-                    <form>
-                        <label for="descricao">Descrição:</label> <br>
-                        <!-- <input type="text" id="descricao" name="descricao"> <br> -->
-                        <textarea id="descricao" name="descricao" rows="10" cols="40"></textarea> <br>
-                    </form>
-                    <form>
-                        <label for="horario">Disponibilidade de horário para retirada:</label> <br>
-                        <input type="radio" id="manha" name="fav_language" value="Manhã">
-                        <label for="manha">Manhã: de 09:00h às 12:00h</label> <br>
-                        <input type="radio" id="tarde" name="fav_language" value="Tarde">
-                        <label for="tarde">Tarde: de 13:00h às 18:00h</label> <br>
-                        <input type="radio" id="noite" name="fav_language" value="Noite">
-                        <label for="noite">Noite: de 18:00h às 22:00h</label>
-                    </form>
-                    <form>
-                        <label for="tipoEletronico">Tipo de Eletrônico:</label> <br>
-                        <input type="checkbox" id="celular" name="celular" value="Celular">
-                        <label for="celular"> Celular</label><br>
-                        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-                        <label for="vehicle2"> I have a car</label><br>
-                        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-                        <label for="vehicle3"> I have a boat</label>
-                      </form>
+                    <div>
+                        <form>
+                            <label for="fname">Nome:</label>
+                            <input type="text" id="fname" name="fname">
+                            <label for="lname">Marca:</label>
+                            <input type="text" id="lname" name="lname"> <br>
+                        </form>
+                    </div>
+
+                    <div>
+                        <form>
+                            <label for="descricao">Descrição:</label> <br>
+                            <!-- <input type="text" id="descricao" name="descricao"> <br> -->
+                            <textarea id="descricao" name="descricao" rows="10" cols="40"></textarea> <br>
+                        </form>
+                    </div>
+
+                    <div>
+                        <form>
+                            <label for="data">Data para Coleta do Lixo:</label>
+                            <input type="date" name="calendario" id="calendario">
+                        </form>
+                    </div>
+
+                    <div>
+                        <form>
+                            <label for="horario">Disponibilidade de horário para retirada:</label> <br>
+                            <input type="radio" id="manha" name="fav_language" value="Manhã">
+                            <label for="manha">Manhã: de 09:00h às 12:00h</label> <br>
+                            <input type="radio" id="tarde" name="fav_language" value="Tarde">
+                            <label for="tarde">Tarde: de 13:00h às 18:00h</label> <br>
+                            <input type="radio" id="noite" name="fav_language" value="Noite">
+                            <label for="noite">Noite: de 18:00h às 22:00h</label>
+                        </form>
+                    </div>
+
+                    <div>
+                        <form>
+                            <label for="tipoEletronico">Tipo de Eletrônico:</label> <br>
+                            <input type="checkbox" id="tipo1" name="tipo1" value="Celular">
+                            <label for="tipo1"> Celular</label><br>
+                            <input type="checkbox" id="tipo2" name="tipo2" value="Computador">
+                            <label for="tipo2"> Computador</label> <br>
+                            <input type="checkbox" id="tipo3" name="tipo3" value="Monitor">
+                            <label for="tipo3"> Monitor</label> <br>
+                            <input type="checkbox" id="tipo4" name="tipo4" value="Perifericos">
+                            <label for="tipo4"> Perifericos</label> <br>
+                            <input type="checkbox" id="tipo5" name="tipo5" value="Baterias">
+                            <label for="tipo5"> Baterias</label> <br>
+                            <input type="checkbox" id="tipo6" name="tipo6" value="Outros">
+                            <label for="tipo6"> Outros</label>
+                        </form>
+                    </div>
+
+                    <div>
+                        <form>
+                            <label for="condicoes">Condição dos Materiais:</label> <br>
+                            <input type="radio" id="desmontagem" name="fav_language" value="Desmonstagem">
+                            <label for="desmontagem">Desmontagem/Retirada de Peças</label> <br>
+                            <input type="radio" id="parcial" name="fav_language" value="parcial">
+                            <label for="parcial">Funcionamento Parcial</label> <br>
+                            <input type="radio" id="cuidados" name="fav_language" value="Cuidados">
+                            <label for="cuidados">Requer Cuidados Especiais no Manuseio</label> <br>
+                            <input type="radio" id="descarte" name="fav_language" value="Descarte">
+                            <label for="descarte">Descarte Total</label>
+                        </form>
+                    </div>
+
+                    <div>
+                        <form>
+                            Informe a Quantidade de Itens:<input type="number" name="quantidade" min="1" max="100">
+                        </form>
+                    </div>
+
+                    <div>
+                        <div>
+                            <label for="imagens">Adicionar Fotos</label>
+                            <input type="file" name="arquivos" class="btn btn-success" multiple />
+                        </div>
+                        <div>
+                            <img src="../Tela_Quero_Doar_Parte_2/img/img_celular (1).png" alt="Celular">
+                            <img src="../Tela_Quero_Doar_Parte_2/img/img_celular (2).png" alt="Um Celulares">
+                            <img src="../Tela_Quero_Doar_Parte_2/img/img_celular.png" alt="Outros Celulares">
+                            <img src="../Tela_Quero_Doar_Parte_2/img/Vector.png" alt="Imagem Vazia 1">
+                            <img src="../Tela_Quero_Doar_Parte_2/img/Vector.png" alt="Imagem Vazia 2">
+                            <img src="../Tela_Quero_Doar_Parte_2/img/Vector.png" alt="Imagem Vazia 3">
+                        </div>
+
+                        <div>
+                            <button>Salvar</button>
+                            <button>Cancelar</button>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>
