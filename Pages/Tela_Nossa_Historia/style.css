@@ -106,42 +106,117 @@ h1{
     overflow: hidden;
 }
 
-/* #### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
+.banner1{
+    background-image: url(../../img/Banner1.png);
+    background-size: cover;
+    height: calc(100vh - 80px);
+
+    color: var(--branco);
+    display: flex;
+    justify-content: center;
+    
+}
+
+.div_banner1Position{
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+    
+    max-width: 1400px;
+    width: 80%;
+}
+
+.img_logo{
+    margin: 30px 0;
+    max-width: 150px;
+    width: 30%;
+    max-height: 140px;
+    height: 30%;
+}
+.div_banner{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.div_banner h2{
+    font-family: var(--font1);
+    font-size: 34px;
+    padding-bottom: 20px;
+}
+
+.div_banner div{
+    max-width: 660px;
+}
+
+.div_banner p{
+    font-family: var(--font2);
+    font-size: 20px;
+
+}
+
+.div_banner img{
+    max-width: 465px;
+    width: 80%;
+    max-height: 320px;
+    height: 80%;
+    padding-left: 10px;
+}
+
+.banner2{
+    padding-top: 100px;
+    background-image: url(../img/Banner2.png);
+    display: flex;
+    justify-content: center;
+	padding-bottom: 100px;
+}
 
 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
+.div_banner2{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.div_banner2 div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	/* width:333px; */
+	text-align: center;
+}
 
 
-################################################## */
+.div_banner2 h3{
+    font-family: var(--font1);
+    font-weight: bold;
+    font-size: 50px;
+    padding-bottom: 40px;
+	text-transform: capitalize;
+}
+
+
+.img_missao{
+    width: 200px;
+    height: 200px;
+}
+
+.img_visao{
+    width: 250px;
+    height: 200px;
+}
+
+.img_valor{
+    width: 200px;
+    height: 200px;
+}
+
+.div_banner2 p{
+	padding: 30px 15px 10px 15px;
+	font-family: var(--font2);
+	font-size: 18px;
+}
+
 
 footer{
 	background: var(--verde1);
