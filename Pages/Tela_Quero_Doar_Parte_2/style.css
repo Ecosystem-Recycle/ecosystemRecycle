@@ -139,6 +139,7 @@ aside {
     font-size: 20px;
     color: #9c9c9c;
     /* width: 900px; */
+    padding-bottom: 50px;
 }
 
 .nada_consta {
@@ -150,6 +151,62 @@ aside {
     margin-bottom: 50px;
     padding: 30px;
 }
+
+.nada_consta input {
+    width: 300px;
+}
+
+.nomeMarca {
+    padding-bottom: 25px;
+}
+
+.nomeMarca label{
+    font-family: var(--font1);
+    font-size: 20px;
+}
+
+.descricao{
+    padding-bottom: 25px;
+}
+
+.descricao label {
+    font-family: var(--font1);
+    font-size: 20px;
+}
+ textarea {
+    width: 884px;
+    padding-bottom: 25px;
+ }
+
+ .data {
+    font-family: var(--font1);
+    font-size: 20px;
+    padding-bottom: 25px;
+ }
+
+.agendamento {
+    padding-bottom: 25px;
+}
+
+ .horario {
+    font-family: var(--font1);
+    font-size: 20px;
+    padding-bottom: 25px;
+ }
+
+ .tipo {
+    font-family: var(--font1);
+    font-size: 20px;
+ }
+
+ .tipoEletronico {
+    padding-bottom: 25px;
+ }
+
+ .celular .computador .monitor .perifericos .baterias .outros {
+    font-family: var(--font2);
+    font-size: 51px;
+ }
 
 footer {
     background: var(--verde1);
