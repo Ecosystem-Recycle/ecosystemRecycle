@@ -18,6 +18,9 @@
     max-width: 1440px;
     margin: 0 auto;
 }
+/* .flex{
+
+} */
 
 header {
     background: var(--verde1);
@@ -107,14 +110,13 @@ h1 {
     width: 1em;
     overflow: hidden;
 }
-
-/* :root { 
+ :root { 
     --verde: #1B8D73;
     --font1: 'Poppins', sem serifa;
     --font2: 'Inter', sem serifa;
     --branco: white;
 
-} */
+} 
 
 /* body { */
 /* background-image: url(../img/fundobranco.png); */
@@ -171,6 +173,12 @@ h2{
     text-align: start;
     width: 1550px;
 }
+.tutorial{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+} 
 .tutorial h2{
     text-align: center;
 }
@@ -178,27 +186,49 @@ h2{
     display: flex;
     width: 100vw;
     margin-top: 50px;
-    /* margin: 0 auto; */
-    /* justify-content: center; */
+    margin: top 0px; 
+    justify-content: center; 
+    align-self: center;
+}
+.logistica{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
 
 .ciclo_logistico h2 {
-    display: flex;
+   
     text-align: center;
     margin-top:50px;
-    margin-bottom: 50px;
+    margin-bottom: 50px; 
 
 }
-/* .descartar{
-    display: flex;
-    align-items: center;
-} */
-.
-.logistica img{
-    display: flex;
+
+.ciclo_logistico p{
+    font-size: 20px;
+    text-align: center;
+
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+    
+
+    
+
+
+.descartar{  
+    background-color: aquamarine;
+    display: flex; 
+    justify-content: center;
     
 }
-
+.video_descarte{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}  
 
 section { 
     display: flex;
@@ -206,7 +236,7 @@ section {
 
 
 
-} 
+}   
 
 .banner_fundo {
     display: flex;
@@ -261,11 +291,11 @@ h2{
     font-size: 50px;
 }
 p{
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     font-family: var(--font2);
     text-align: center;
-    width: ;
-    /* display: flex; */
+    /* width: ; */
+     display: flex; 
 }
 
 .simbolo2{
@@ -278,14 +308,20 @@ p{
 
 
 .video_logistiaca {
+    display: flex;
     align-items: center;
+    justify-content: center;
+    width: 1400px;
     
 
-    height: 315px;
+    height: 315px; 
 }
-.logistica{
 
-}
+.logistica p{
+    width: 500px;
+    margin-top: 80px;
+
+}  
 
 
 footer {
