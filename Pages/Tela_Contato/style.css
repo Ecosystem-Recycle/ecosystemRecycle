@@ -19,9 +19,14 @@
     margin: 0 auto;
 }
 
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
 header{
     background: var(--verde1);
-    height: 80px;
+    height: 100px;
 
     display: flex;
     align-items: center;
@@ -105,50 +110,58 @@ h1{
     width: 1em;
     overflow: hidden;
 }
+section{
+    width: 100%;
+    height: calc(100vh - 350px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blueviolet; */
+}
+.telaContato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80%;
+    /* background-color: blue; */
+}
 
-/* #### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
+.cardContato{
+    width: 80%;
+    height: 100%;
+    background-color: azure;
+    border: 10px solid black;
+}
 
+.cardContato>form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 250px;
+    background-color: #EAF207;
+}
 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
+.cardContato>form>input{
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: brown;
+}
 
-
-################################################## */
+.mensagemContato{
+    background-color: aqua;
+}
 
 footer{
 	background: var(--verde1);
 }
 
 .div_footerPosition{
-	height: 300px;
+	height: 250px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
