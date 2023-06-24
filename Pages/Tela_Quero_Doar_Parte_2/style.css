@@ -157,56 +157,129 @@ aside {
 }
 
 .nomeMarca {
-    padding-bottom: 25px;
+    padding-bottom: 30px;
 }
 
-.nomeMarca label{
+.nomeMarca label {
     font-family: var(--font1);
     font-size: 20px;
 }
 
-.descricao{
-    padding-bottom: 25px;
+.descricao {
+    padding-bottom: 30px;
 }
 
 .descricao label {
     font-family: var(--font1);
     font-size: 20px;
 }
- textarea {
+
+textarea {
     width: 884px;
-    padding-bottom: 25px;
- }
-
- .data {
-    font-family: var(--font1);
-    font-size: 20px;
-    padding-bottom: 25px;
- }
-
-.agendamento {
-    padding-bottom: 25px;
+    padding-bottom: 30px;
 }
 
- .horario {
+.data {
     font-family: var(--font1);
     font-size: 20px;
-    padding-bottom: 25px;
- }
+    padding-bottom: 30px;
+}
 
- .tipo {
+.agendamento {
+    padding-bottom: 30px;
+}
+
+.horario {
     font-family: var(--font1);
     font-size: 20px;
- }
+    padding-bottom: 30px;
+}
 
- .tipoEletronico {
-    padding-bottom: 25px;
- }
+.tipo {
+    font-family: var(--font1);
+    font-size: 20px;
+}
 
- .celular .computador .monitor .perifericos .baterias .outros {
+.tipoEletronico {
+    padding-bottom: 30px;
+}
+
+.celular .computador .monitor .perifericos .baterias .outros {
     font-family: var(--font2);
-    font-size: 51px;
- }
+    /* font-size: 51px; */
+}
+
+.condicoes {
+    font-family: var(--font1);
+    font-size: 20px;
+}
+
+.condicoesMateriais {
+    padding-bottom: 30px;
+}
+
+.qtdItens {
+    font-family: var(--font1);
+    font-size: 20px;
+}
+
+.itens {
+    padding-bottom: 30px;
+}
+
+.arquivos {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+
+}
+
+.adicionarFotos {
+    /* height: 25px; */
+    width: 542px;
+    padding-left: 5%;
+    border: 3px solid #9c9c9c;
+    border-radius: 20px;
+    /* flex-direction: row; */
+}
+
+.arquivos img{
+    max-width: 100%;
+ max-height: 100%;
+}
+
+.adicionarFotos button{
+    height: 50px;
+    width: 300px;
+    /* padding-left: 5%; */
+    
+    background-color: #045328;
+    border-radius: 5px;
+    font-family: var(--font2);
+    font-size: 20px;
+    color: var(--branco);
+    /* flex-direction: row; */
+}
+
+.alinhamentoImg {
+    /* display: flex; */
+    justify-content: stretch;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 542px;
+    padding-left: 4%;
+    border: 3px solid #9c9c9c;
+    border-radius: 20px;
+    flex-direction: row;
+    display: grid;
+    grid-template-columns: 33% 34% 38%;
+    grid-auto-columns: 141%;
+
+}
+
+.alinhamentoImg img {
+    margin: 20px 0;
+}
 
 footer {
     background: var(--verde1);

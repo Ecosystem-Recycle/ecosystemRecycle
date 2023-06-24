@@ -114,9 +114,9 @@
                         </form>
                     </div>
 
-                    <div>
+                    <div class="condicoesMateriais">
                         <form>
-                            <label for="condicoes">Condição dos Materiais:</label> <br>
+                            <label class="condicoes" for="condicoes">Condição dos Materiais:</label> <br>
                             <input type="radio" id="desmontagem" name="fav_language" value="Desmonstagem">
                             <label for="desmontagem">Desmontagem/Retirada de Peças</label> <br>
                             <input type="radio" id="parcial" name="fav_language" value="parcial">
@@ -128,18 +128,20 @@
                         </form>
                     </div>
 
-                    <div>
-                        <form>
+                    <div class="itens">
+                        <form class="qtdItens">
                             Informe a Quantidade de Itens:<input type="number" name="quantidade" min="1" max="100">
                         </form>
                     </div>
 
-                    <div>
-                        <div>
-                            <label for="imagens">Adicionar Fotos</label>
-                            <input type="file" name="arquivos" class="btn btn-success" multiple />
+                    <div class="arquivos">
+                        <div class="adicionarFotos">
+                            <img src="../Tela_Quero_Doar_Parte_2/img/img_Baterias.png" alt="Upload de Imagem">
+                            <button>+ Adicionar Fotos</button>
+                            <!-- <label for="imagens">+ Adicionar Fotos</label> -->
+                            <!-- <input type="file" name="arquivos" class="btn btn-success" multiple /> -->
                         </div>
-                        <div>
+                        <div class="alinhamentoImg">
                             <img src="../Tela_Quero_Doar_Parte_2/img/img_celular (1).png" alt="Celular">
                             <img src="../Tela_Quero_Doar_Parte_2/img/img_celular (2).png" alt="Um Celulares">
                             <img src="../Tela_Quero_Doar_Parte_2/img/img_celular.png" alt="Outros Celulares">
@@ -147,11 +149,11 @@
                             <img src="../Tela_Quero_Doar_Parte_2/img/Vector.png" alt="Imagem Vazia 2">
                             <img src="../Tela_Quero_Doar_Parte_2/img/Vector.png" alt="Imagem Vazia 3">
                         </div>
+                    </div>
 
-                        <div>
-                            <button>Salvar</button>
-                            <button>Cancelar</button>
-                        </div>
+                    <div>
+                        <button>Salvar</button>
+                        <button>Cancelar</button>
                     </div>
 
                 </div>
