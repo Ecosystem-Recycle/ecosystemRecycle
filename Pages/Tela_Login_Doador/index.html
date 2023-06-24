@@ -31,7 +31,7 @@
     </header>
     <main>
         <h1>página ??????? ecosystem & recycle</h1>
-        <section>logio
+        <section class="sessao_formulario_login">
 
 
             <form class="formulario_login">
@@ -42,7 +42,7 @@
 					
 					<label for="login_senha">Senha:</label><br>
 					<input type="password" name="login_senha" id="login_senha" placeholder="digite sua senha"><br>
-					<button type="submit">Enviar</button>
+					<button class="formulario_botao" type="submit">Enviar</button>
 					<button disabled="disabled">Conecte-se com o google</button>
 
 
@@ -70,13 +70,17 @@
 					<input type="password" name="confirmacao_senha" id="confirmacao_senha" placeholder="confirme sua senha"><br>
 
 
-					<input type="radio" name="tipo_usuario" id="doador">
-					<label for="doador">Sou doador</label>
-
-					<input type="radio" name="tipo_usuario" id="coletor">
-					<label for="coletor">Sou coletor</label>
+					<div class="opcao">
+						
+						<input type="radio" name="tipo_usuario" id="doador">
+						<label for="doador">Sou doador</label>
+	
+						<input type="radio" name="tipo_usuario" id="coletor">
+						<label for="coletor">Sou coletor</label>
+						
+					</div>
 					
-					<button type="submit">Cadastrar</button>
+					<button type="submit" class="formulario_botao">Cadastrar</button>
 					
 
 

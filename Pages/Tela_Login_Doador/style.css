@@ -109,6 +109,8 @@ h1{
 /* #### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
 
 
+
+
 #### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
 #### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
 #### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
@@ -143,8 +145,49 @@ h1{
 
 ################################################## */
 
+.sessao_formulario_login{
+    display: flex;
+    margin: 100px;
+    justify-content: space-around;
+}
+.formulario_login{
+    width:500px;
+    height: 600px;
+    display: flex;
+    background-color: red;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:10px 100px;
+}
+
+
+.formulario_login label{
+    width: 200px;
+    height: 10px;
+}
+
+.formulario_cadastro{
+    width: 500px;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    ;
+}
+.formulario_botao{
+    padding:10px 100px;
+    width: 100px;
+}
+
+.opcao{
+    display: flex;
+    flex-direction: row;
+
+;}
 footer{
-	background: var(--verde1);
+    background: var(--verde1);
 }
 
 .div_footerPosition{
