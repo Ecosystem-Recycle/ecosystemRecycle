@@ -10,6 +10,8 @@
     --font2: 'Inter', sans-serif;
     --verde1: #045328;
     --branco: #fff;
+    --roxo: #9319CC;
+    --cinza: #9c9c9c;
 }
 
 
@@ -109,21 +111,225 @@ h1{
 
 .conteudo_doacoes{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    column-gap: 3rem;
+    grid-template-columns: minmax(238px,0.25fr) 1fr;
+    padding: 60px 0;
+}
 
+aside ul{
+    list-style-type: none;
+    color: black;
+}
+
+/* ####### ESPAÇO ENTRE SEGUNDO E TERCEIRO LI ########## */
+aside li:nth-child(2){
+    padding: 1rem 0;
+}
+
+
+
+aside a{
+    color: black;
+    font-family: var(--font2);
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding: 0 15px;
+    position: relative;
+    
+}
+
+
+
+/* ####### Estilização do Elemento selecionado no ASIDE ########## */
+
+aside li:nth-child(2) a  {
+    color:var(--roxo);
+    font-weight: 900;
+    border: 3px solid var(--roxo);
+    border-radius: 10px;
+    padding: 5px 15px;
+    background: rgba(159, 47, 187, 0.30);
+}
+
+.menu_Direito{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+.title{
+    padding-bottom: 40px;
+}
+
+.title h2{
+    font-family: var(--font2);
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+.title p{
+    font-family: var(--font2);
+    font-size: 1rem;
+    color: var(--cinza);
 }
 
 
 
 
 
+.links_pags{
+    padding-bottom: 0.4rem;
+}
+
+
+.links_pags a{
+    border-radius: 9px;
+    border: 2px solid rgba(156, 156, 156, 0.80);  
+    padding: 1px 7px;
+    font-family: var(--font1);
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: capitalize;
+    color: var(--cinza);
+}
+
+.links_pags span{
+    font-size: 22px;
+    font-family: var(--font1);
+    color: var(--cinza);
+}
+
+
+.links_pags a:nth-child(1){
+    border: 2px solid var(--verde1);
+    color: var(--verde1);
+}
 
 
 
 
+.historic_cards{
+    border: 1px solid var(--cinza);
+    border-radius: 20px;
+    padding: 5rem;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: var(--font2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.historic_cards > a{
+    border-radius: 15px;
+    border: 4px solid var(--roxo);
+    padding: 2px 35px;
+    font-family: var(--font1);
+    font-size: 18px;
+    font-weight:800;
+    text-transform: uppercase;
+
+    &:active{
+        transform: translateY(2px);
+        &::before{
+            animation: Press;
+        }
+    }
+}
+
+
+.Conteudo_Cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    column-gap: 7rem;
+    row-gap: 5rem;
+        
+    /* grid-template-rows: repeat(2, auto); */
+    margin-bottom: 100px;
+}
 
 
 
+
+.WrapperCard{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.cards{
+    border: 1px solid rgba(156, 156, 156, 0.20);
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 7px 4px 4px 2px rgba(0, 0, 0, 0.25);
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+.cards h4{
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 9px 0;
+}
+
+.cards p{
+    font-size: 12px;
+}
+
+.Descriocaocards{
+    display: flex;
+}
+
+.Descriocaocards > div{
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 50px 5px;
+}
+
+.card_Status{
+    display: flex;
+    justify-content: start; 
+    align-items: center;
+}
+
+/* .card_Status svg{
+    width: 10px;
+    height: 10px;
+} */
+
+.circle_Status{
+    width: 12px;
+    height: 12px;
+    flex-shrink: 0;
+    border-radius: 10px;
+}
+
+.circle_Yellow{
+    background: #F8BD00;
+}
+
+.circle_Orange{
+    background: #ED7016;
+}
+
+.card_Status span{
+    padding-left: 5px;
+    font-weight: 600;
+}
+
+.iconesCards{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
 
 footer{
 	background: var(--verde1);
@@ -194,6 +400,13 @@ footer{
     border: 3px solid var(--branco);
     border-radius: 30px;
     padding: 0 35px;
+
+    &:active{
+        transform: translateY(2px);
+        &::before{
+            animation: Press;
+        }
+    }
     
 }
 
@@ -317,4 +530,18 @@ footer{
 @media screen and (max-width: 454px) {
     .div_banner img{
     display: none;    }
+}
+
+
+
+
+
+/* #########      KEYFRAMES    ##########            */
+
+
+@keyframes Press{
+    to{
+        /* opacity: 0; */
+        transform: scale(1.15,1.35);
+    }
 }
