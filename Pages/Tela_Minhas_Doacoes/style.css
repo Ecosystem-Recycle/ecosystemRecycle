@@ -449,12 +449,6 @@ footer{
 
 /* ### Seção @Media ### */
 
-@media screen and (max-width: 1250px) {
-    .banner1{
-        height: 100%;
-        padding-bottom: 60px;
-    }
-}
 
 @media screen and (max-width: 1072px) {
 
