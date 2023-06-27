@@ -89,15 +89,30 @@ header nav a{
     transform: scaleX(1);
   }
   
+.log_doador, .log_doador div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.log_doador  a:nth-child(even){
+    padding-left: 10px;
+}
+
+.log_doador p{
+    padding: 0 7px 0 5px;
+}
 
 
-.btn_entrar, .btn_enviar{
+
+
+.btn_enviar{
     border: 3px solid var(--branco);
     border-radius: 30px;
     padding: 0 50px;
 }
 
-.btn_entrar:hover, .btn_enviar:hover{
+.btn_enviar:hover{
     background-color: #EAF207;
     color: black;
 }
@@ -234,13 +249,15 @@ aside li:nth-child(2) a  {
     font-weight:800;
     text-transform: uppercase;
 
-    &:active{
+    /* &:active{
         transform: translateY(2px);
         &::before{
             animation: Press;
         }
-    }
+    } */
 }
+
+
 
 
 .Conteudo_Cards{
@@ -401,18 +418,18 @@ footer{
 .foot_botetim a{
     color: var(--branco);
 }
+
 .btn_enviar{
     border: 3px solid var(--branco);
     border-radius: 30px;
     padding: 0 35px;
 
-    &:active{
+    /* &:active{
         transform: translateY(2px);
         &::before{
             animation: Press;
         }
-    }
-    
+    } */    
 }
 
 .ico_sociais{
