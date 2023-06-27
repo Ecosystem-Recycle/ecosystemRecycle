@@ -32,21 +32,104 @@ header{
 }
 
 .div_headerPosition{
-
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-
 }
+
+
 
 header nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 80%;
     max-width: 1120px;
 }
 
+#log_doador2 {
+    display: none;
+}
+
+.grupo_login{
+    position: relative;
+}
+
+
+/* .menu_logins, .menu_notificacao{
+    display: none;
+} */
+
+
+.menu_login, .menu_notificacao{
+    max-width: 405px;
+    width: 350px;
+    height: 400px;
+    /* background-color: var(--cinza); */
+
+}
+
+.menu_login{
+    background-image: url(../../img/fundo_retangulo.png);
+
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-position: unset; */
+    position: absolute;
+    top: 20px;
+    right: -87px;
+    display: flex;
+    flex-direction: column;align-items: center;
+
+    /* border: 1px solid #ccc; */
+    /* box-shadow: 3px 7px 4px 0px rgba(0, 0, 0, 0.25); */
+}
+
+.menu_login_Div{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 3px;
+    width: 90%;
+    border-bottom: 1px solid #ccc;
+}
+
+.menu_login_Div img:first-child{
+    width: 40px;
+    height: 49px;
+}
+
+.LOGIN_BEMVINDOS{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.LOGIN_BEMVINDOS h5{
+    color: black;
+    font-family: var(--font1);
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--cinza);
+padding-right: 30px;
+}
+
+.LOGIN_BEMVINDOS p{
+    color: black;
+    font-family: var(--font1);
+    font-size: 14px;
+}
+
+.Login_menus{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Login_menus a{
+    color: black;
+}
 
 .menu_barras{
     display: none;
@@ -54,7 +137,7 @@ header nav{
 
 .menu_barras svg{
     fill: var(--branco);
-    height: 40px;
+    height: 35px;
 }
 
 
@@ -89,10 +172,28 @@ header nav a{
     transform: scaleX(1);
   }
   
+
+  
 .log_doador, .log_doador div{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    color: var(--branco);
+    font-size: 16px;
+    font-family: var(--font1);
+    font-weight: 800;
+}
+
+.log_doador img{
+    height: 25px;
+}
+
+.grupo_login > img{
+    height: 12px;
+}
+
+.log_doador a div img:first-child{
+    height: 30px;
 }
 
 .log_doador  a:nth-child(even){
@@ -463,6 +564,25 @@ footer{
     .menu_barras{
         display: flex;
     }
+
+    #log_doador1{
+        display: none;
+    }
+
+    #log_doador2{
+        display: flex;
+    }
+
+    .div_headerPosition > div{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .div_headerPosition > div svg{
+        padding-left: 20px;
+    }
+    
+    
 
     #menu_links{
         display: none;
