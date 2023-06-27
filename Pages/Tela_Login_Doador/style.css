@@ -162,8 +162,9 @@ h1{
 }
 
 
-.formulario_login label{
-    width: 200px;
+.formulario_login label,
+.formulario_cadastro label{
+    width: 350px;
     height: 10px;
 }
 
@@ -174,11 +175,16 @@ h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    ;
+    
 }
 .formulario_botao{
-    padding:10px 100px;
+    padding:10px 50px;
     width: 100px;
+    font-size: 16px;
+    font-family: var(--font1);
+    color: purple;
+    border: 3px solid purple;
+    /* text-align:  center; */
 }
 
 .opcao{
@@ -272,6 +278,41 @@ footer{
 }
 
 
+main input{
+    width: 350px;
+    height: 40px;
+}
+
+.opcao {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.opcao label{
+    width: 220px;
+}
+
+.opcao div {
+    display: flex;
+    justify-content: start;
+}
+
+main input[type="radio"]
+{
+    width: 20px;
+    height: 18px;
+    
+    
+
+}
+main label{
+
+    display: flex;
+    font-size: 16px;
+    font-family:var(--font2);
+    text-align: left;
+}
 
 /* ### Seção @Media ### */
 
