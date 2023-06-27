@@ -1,6 +1,8 @@
 //Criano váriavel em JS
 let menu = document.getElementById("menu_links")
 let menu_barras = document.getElementById("menu_barras")
+let menu1 = document.getElementById("menu_login")
+let menu2 = document.getElementById("menu_login2")
 
 function mostrarMenu(){
     if (window.getComputedStyle(menu).display == 'none'){
@@ -26,3 +28,37 @@ addEventListener("resize", () => {
         menu.style.display = "none";
     }
 });
+
+
+
+function abrirFechar(){
+    if (window.getComputedStyle(menu1).display == 'none'){
+        //Mostre o menu
+        menu1.style.display = "flex";
+
+
+    }else{
+        //Esconde o menu
+        menu1.style.display = "none";
+
+        // menu_barras.setAttribute("aria-expanded", "false");
+        // menu_barras.setAttribute("aria-label", "Abrir o Menu");
+        
+    }
+};
+
+function abrirFechar2(){
+    if (window.getComputedStyle(menu2).display == 'none'){
+        //Mostre o menu
+        menu2.style.display = "flex";
+
+
+    }else{
+        //Esconde o menu
+        menu2.style.display = "none";
+
+        // menu_barras.setAttribute("aria-expanded", "false");
+        // menu_barras.setAttribute("aria-label", "Abrir o Menu");
+        
+    }
+};

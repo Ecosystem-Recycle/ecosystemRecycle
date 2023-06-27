@@ -56,79 +56,107 @@ header nav{
 }
 
 
-/* .menu_logins, .menu_notificacao{
+#menu_login, #menu_login2{
     display: none;
-} */
-
-
-.menu_login, .menu_notificacao{
-    max-width: 405px;
+    flex-direction: column;
     width: 350px;
-    height: 400px;
-    /* background-color: var(--cinza); */
-
-}
-
-.menu_login{
-    background-image: url(../../img/fundo_retangulo.png);
-
-    background-repeat: no-repeat;
-    background-size: contain;
-    /* background-position: unset; */
+    background-color: var(--verde1);
     position: absolute;
-    top: 20px;
-    right: -87px;
-    display: flex;
-    flex-direction: column;align-items: center;
+    top: -10px;
+    right: 5px;
 
-    /* border: 1px solid #ccc; */
-    /* box-shadow: 3px 7px 4px 0px rgba(0, 0, 0, 0.25); */
+
+    z-index: 3;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
-.menu_login_Div{
+
+
+#menu_login_pt1{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    /* height: 60px;      */
+    width: 100%;
+}
+
+#menu_login_pt1 > div{
+    height: 100%;
+    /* background-color: #1B8D73; */
+
+    width: 90%;
+    margin: 0 auto;
+
     display: flex;
     justify-content: space-between;
-    padding-top: 20px;
-    padding-bottom: 3px;
-    width: 90%;
-    border-bottom: 1px solid #ccc;
+    align-items: center;
 }
 
-.menu_login_Div img:first-child{
-    width: 40px;
-    height: 49px;
+.Menu_USER_div_text{
+    display: flex;
+    align-items: center;
 }
 
-.LOGIN_BEMVINDOS{
+#menu_login_pt1_img{
+    width: 35px;
+    height: 35px;
+}
+
+#text_Login{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    padding-left: 10px;
+    font-family: var(--font1);
+    color: var(--branco);
 }
 
 
-.LOGIN_BEMVINDOS h5{
-    color: black;
-    font-family: var(--font1);
-    font-size: 20px;
-    font-weight: bold;
-    color: var(--cinza);
-padding-right: 30px;
+#text_Login h5{
+    font-size: 22px;
 }
 
-.LOGIN_BEMVINDOS p{
-    color: black;
-    font-family: var(--font1);
+#text_Login p{
     font-size: 14px;
 }
 
-.Login_menus{
+#menu_login_pt2 {
+    margin-bottom: 10px;
+}
+
+#menu_login_pt2 img{
+    width: 25px;
+    height: 25px;
+    margin-right: 3px;
+}
+
+#menu_login_pt2 a{
+    font-family: var(--font2);
+    font-size: 16;
+    font-weight: 400;
+    color: var(--branco);
+}
+
+
+#menu_login_pt2 > div{
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+#menu_login_pt2_Itens{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.Login_menus a{
-    color: black;
+#menu_login_pt2_Itens2{
+    padding-top: 60px;
+} 
+
+#menu_login_pt2_Itens div, #menu_login_pt2_Itens2 {
+    display: flex;
+    align-items: center;
 }
 
 .menu_barras{
@@ -174,7 +202,7 @@ header nav a{
   
 
   
-.log_doador, .log_doador div{
+.log_doador{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -184,12 +212,20 @@ header nav a{
     font-weight: 800;
 }
 
+.grupo_login, .grupo_login a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--branco);
+}
+
 .log_doador img{
     height: 25px;
 }
 
-.grupo_login > img{
+#seta_BAXIO{
     height: 12px;
+    padding-right: 5px;
 }
 
 .log_doador a div img:first-child{
@@ -330,7 +366,7 @@ aside li:nth-child(2) a  {
 .historic_cards{
     border: 1px solid var(--cinza);
     border-radius: 20px;
-    padding: 3rem 2rem;
+    padding: 2rem 0;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     font-family: var(--font2);
 }
@@ -365,7 +401,7 @@ aside li:nth-child(2) a  {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
-    row-gap: 5rem;
+    row-gap: 3rem;
     margin-bottom: 100px;
 }
 
@@ -388,7 +424,7 @@ aside li:nth-child(2) a  {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    margin: 0 5px;
+    margin: 0 15px;
 } 
 
 .cards img{
@@ -423,10 +459,6 @@ aside li:nth-child(2) a  {
     align-items: center;
 }
 
-/* .card_Status svg{
-    width: 10px;
-    height: 10px;
-} */
 
 .circle_Status{
     width: 12px;
