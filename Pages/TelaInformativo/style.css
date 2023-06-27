@@ -18,6 +18,7 @@
     max-width: 1440px;
     margin: 0 auto;
 }
+
 /* .flex{
 
 } */
@@ -110,13 +111,14 @@ h1 {
     width: 1em;
     overflow: hidden;
 }
- :root { 
+
+:root {
     --verde: #1B8D73;
     --font1: 'Poppins', sem serifa;
     --font2: 'Inter', sem serifa;
     --branco: white;
 
-} 
+}
 
 /* body { */
 /* background-image: url(../img/fundobranco.png); */
@@ -129,114 +131,165 @@ main {
 
     /* background-image: url(../img/fundobranco.png); */
     justify-content: space-between;
-    width: 100%;
+    /* width: 100%; */
     height: 100%;
 }
-.lixo1{
+
+.lixo1 {
     padding-top: 80px;
-    
+
     /* background-color: #EAF207; */
 
 
 }
-h2{
+
+h2 {
     /* display: flex; */
     padding-top: 70px;
 
-    
+
 }
-.lixo1 p{
+
+.lixo1 p {
     font-size: 25px;
-    margin-top:30px;
+    margin-top: 30px;
     text-align: start;
-    width: 1550px;
-    
-   
- 
-    
+    /* width: 1550px; */
+
+
+
+
 
 }
 
 
-.lixo2 img{
+.lixo2 img {
     padding-top: 50px;
 
-    width:400px
+    width: 400px
 }
-h2{
+
+h2 {
     padding-top: 50px;
 }
-.lixo2 p{
+
+.lixo2 p {
     display: flex;
     font-size: 25px;
     margin-top: 30px;
     text-align: start;
-    width: 1550px;
+    padding: 80 100px;
+    /* width: 1550px; */
 }
-.tutorial{
+
+.tutorial {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    
-} 
-.tutorial h2{
+
+}
+
+.tutorial h2 {
     text-align: center;
 }
+
 .video_logistiaca {
     display: flex;
-    width: 100vw;
+    /* width: 100vw; */
     margin-top: 50px;
-    margin: top 0px; 
-    justify-content: center; 
+    margin: top 0px;
+    justify-content: center;
     align-self: center;
 }
-.logistica{
+
+.logistica {
     width: 100%;
     display: flex;
     justify-content: space-around;
 }
 
 .ciclo_logistico h2 {
-   
+
     text-align: center;
-    margin-top:50px;
-    margin-bottom: 50px; 
+    margin-top: 50px;
+    margin-bottom: 50px;
 
 }
 
-.ciclo_logistico p{
-    font-size: 20px;
+.ciclo_logistico p {
+    font-size: 25px;
     text-align: center;
 
     /* display: flex; */
     /* justify-content: center; */
 }
 
-    
-
-    
 
 
-.descartar{  
-    background-color: aquamarine;
-    display: flex; 
+
+
+
+.descartar {
+    /* background-color: aquamarine; */
+    display: flex;
     justify-content: center;
-    
+
 }
-.video_descarte{
+
+.video_descarte {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-}  
 
-section { 
+}
+.impacto h2{    
+    text-align: center;
+    /* justify-content: center;     */
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.impacto p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 25px;
+    padding: 10 100px;
+    /* width: 1550px;  */
+}
+.tabela_periodica{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.tabela{ 
+    display: flex;
+    justify-content: center;
+    width: 1400px;
+    height: 800px;
+    margin-bottom: 80px;
+
+    
+}
+.tabela_periodica p{
+    display: flex;
+    justify-content: flex-start;
+    width: 1400px;
+    font-size: 25px;
+    text-align: center;
+    padding: 0 50px;
+    margin-bottom: 300px;
+    
+}
+
+/* section {
     display: flex;
     flex-direction: column;
 
 
 
-}   
+} */
 
 .banner_fundo {
     display: flex;
@@ -265,10 +318,10 @@ section {
     align-items: center;
     /* width: 300px; */
     /* height: 200px; */
-    /* height: 100vh; */      
-    
+    /* height: 100vh; */
 
-  
+
+
 
 }
 
@@ -277,28 +330,31 @@ section {
     flex-direction: column;
     align-items: center;
 }
-.lixo_filho{
+
+.lixo_filho {
     display: flex;
     flex-direction: column;
     justify-content: center;
     /* align-items: center; */
 }
-h2{
+
+h2 {
     /* display: flex; */
     /* justify-content: center; */
     /* align-items: center; */
     font-family: var(--font1);
     font-size: 50px;
 }
-p{
+
+p {
     /* background-color: aquamarine; */
     font-family: var(--font2);
     text-align: center;
     /* width: ; */
-     display: flex; 
+    display: flex;
 }
 
-.simbolo2{
+.simbolo2 {
     width: 150px;
     width: 200px;
 
@@ -312,16 +368,39 @@ p{
     align-items: center;
     justify-content: center;
     width: 1400px;
-    
-
-    height: 315px; 
+    height: 315px;
 }
 
-.logistica p{
+.logistica p {
     width: 500px;
     margin-top: 80px;
+    padding-top: 50px;
+    text-align: justify;
 
-}  
+}
+
+.descartar h2 {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.descartar {
+    display: flex;
+    justify-content: center;
+
+    flex-direction: column;
+    margin-top: 100px;
+    padding-top: 50px;
+}
+
+.video_descarte {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 315px;
+
+}
 
 
 footer {
@@ -514,5 +593,11 @@ footer {
 @media screen and (max-width: 454px) {
     .div_banner img {
         display: none;
+    }
+}
+@media screen and (max-width:1406px) {
+    .video_logistiaca {
+        display: flex;
+        max-width: 500px;
     }
 }
