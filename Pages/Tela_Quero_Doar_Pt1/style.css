@@ -106,6 +106,52 @@ h1{
     overflow: hidden;
 }
 
+.marginAside{
+    /* background-color: aqua; */
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+}
+
+.aside{
+    /* background-color: #f95d5d; */
+    display: flex;
+    flex-direction: column;
+    width: 22%;
+}
+
+.aside a{
+    font-family: var(--font2);
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.ladoDireito{
+    background-color: #EAF207;
+    width: 73%;
+}
+
+.sub_titulo{
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: var(--font2);
+}
+.txt_mensagem{
+    color: rgb(142, 142, 142);
+    font-size: 16px;
+    font-family: var(--font2);
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.produtos{
+    border: 1px solid black;
+}
+
 /* #### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
 
 
