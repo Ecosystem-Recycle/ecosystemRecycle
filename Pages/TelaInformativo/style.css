@@ -14,7 +14,7 @@
 
 
 .wrapper {
-    width: 90%;
+    width: 90VW;
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -26,6 +26,7 @@
 header {
     background: var(--verde1);
     height: 80px;
+    width: 100VW;
 
     display: flex;
     align-items: center;
