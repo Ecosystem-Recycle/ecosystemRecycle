@@ -62,10 +62,10 @@
                 <div class="nada_consta">
                     <div class="nomeMarca">
                         <form>
-                            <label for="fname">Nome:</label>
-                            <input type="text" id="fname" name="fname">
-                            <label for="lname">Marca:</label>
-                            <input type="text" id="lname" name="lname"> <br>
+                            <label for="fname">Informe quais produtos pretende doar:</label>
+                            <input class="input" type="text" id="fname" name="fname"> <br><br>
+                            <label for="lname">Informe qual a marca destes produtos:</label>
+                            <input class="input" type="text" id="lname" name="lname">
                         </form>
                     </div>
 
@@ -80,13 +80,13 @@
                     <div class="data">
                         <form>
                             <label for="data">Data para Coleta do Lixo:</label>
-                            <input type="date" name="calendario" id="calendario">
+                            <input class="input" type="date" name="calendario" id="calendario">
                         </form>
                     </div>
 
                     <div class="agendamento">
                         <form>
-                            <label class="horario" for="horario">Disponibilidade de horário para retirada:</label> <br>
+                            <label class="horario" for="horario">Disponibilidade de horário para retirada:</label> <br><br>
                             <input type="radio" id="manha" name="fav_language" value="Manhã">
                             <label class="manha" for="manha">Manhã: de 09:00h às 12:00h</label> <br>
                             <input type="radio" id="tarde" name="fav_language" value="Tarde">
@@ -98,7 +98,7 @@
 
                     <div class="tipoEletronico">
                         <form>
-                            <label class="tipo" for="tipoEletronico">Tipo de Eletrônico:</label> <br>
+                            <label class="tipo" for="tipoEletronico">Tipo de Eletrônico:</label> <br><br>
                             <input type="checkbox" id="tipo1" name="tipo1" value="Celular">
                             <label class="celular" for="tipo1"> Celular</label><br>
                             <input type="checkbox" id="tipo2" name="tipo2" value="Computador">
@@ -116,7 +116,7 @@
 
                     <div class="condicoesMateriais">
                         <form>
-                            <label class="condicoes" for="condicoes">Condição dos Materiais:</label> <br>
+                            <label class="condicoes" for="condicoes">Condição dos Materiais:</label> <br><br>
                             <input type="radio" id="desmontagem" name="fav_language" value="Desmonstagem">
                             <label for="desmontagem">Desmontagem/Retirada de Peças</label> <br>
                             <input type="radio" id="parcial" name="fav_language" value="parcial">
@@ -130,7 +130,7 @@
 
                     <div class="itens">
                         <form class="qtdItens">
-                            Informe a Quantidade de Itens:<input type="number" name="quantidade" min="1" max="100">
+                            Informe a Quantidade de Itens:<input class="input" type="number" name="quantidade" min="1" max="100">
                         </form>
                     </div>
 
@@ -151,9 +151,9 @@
                         </div>
                     </div>
 
-                    <div>
-                        <button>Salvar</button>
-                        <button>Cancelar</button>
+                    <div class="botao">
+                        <a class="btnSalvar" href="#">Salvar</a>
+                        <a class="btnCancelar" href="#">Cancelar</a>
                     </div>
 
                 </div>

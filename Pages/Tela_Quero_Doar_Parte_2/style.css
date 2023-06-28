@@ -154,15 +154,28 @@ aside {
 
 .nada_consta input {
     width: 300px;
+
 }
 
 .nomeMarca {
+    border-radius: 10px;
     padding-bottom: 30px;
+    /* justify-content: space-between; */
 }
 
+/* .nomeMarca form input{
+    padding-bottom: 30px;
+} */
+
 .nomeMarca label {
+    display: flex;
+    flex-direction: column;
     font-family: var(--font1);
     font-size: 20px;
+}
+
+.nomeMarca input {
+    width: 976px;
 }
 
 .descricao {
@@ -231,35 +244,39 @@ textarea {
     display: flex;
     justify-content: space-between;
     padding-bottom: 30px;
-
 }
 
 .adicionarFotos {
-    /* height: 25px; */
-    width: 542px;
-    padding-left: 5%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     border: 3px solid #9c9c9c;
     border-radius: 20px;
-    /* flex-direction: row; */
 }
 
-.arquivos img{
+.arquivos img {
     max-width: 100%;
- max-height: 100%;
+    max-height: 100%;
 }
 
-.adicionarFotos button{
+.adicionarFotos button {
     height: 50px;
-    width: 300px;
-    /* padding-left: 5%; */
-    
+    width: 100%;
+    border-radius: 0px 0px 18px 18px;
+    /* border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px; */
+    border-end-end-radius: 0px 0px 18px 18px;
     background-color: #045328;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     font-family: var(--font2);
     font-size: 20px;
     color: var(--branco);
-    /* flex-direction: row; */
 }
+
+/* button {
+
+} */
 
 .alinhamentoImg {
     /* display: flex; */
@@ -274,11 +291,62 @@ textarea {
     display: grid;
     grid-template-columns: 33% 34% 38%;
     grid-auto-columns: 141%;
-
+    box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.25);
 }
 
 .alinhamentoImg img {
     margin: 20px 0;
+}
+
+.botao {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.btnSalvar {
+    border: 5px solid #9319CC;
+    border-radius: 15px;
+    padding: 10px 150px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: var(--font1);
+    color: #9319CC;
+}
+
+.btnCancelar {
+    border: 5px solid #9319CC;
+    border-radius: 15px;
+    padding: 10px 150px;
+    font-size: 20px;
+    /* font-weight: 800; */
+    font-weight: bold;
+    font-family: var(--font1);
+    color: #9319CC;
+}
+
+.input {
+    border: 1px solid #9C9C9C;
+    border-radius: 10px;
+    width: 461px;
+    height: 40px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: var(--font2);
+}
+
+textarea {
+    border: 1px solid #9C9C9C;
+    border-radius: 10px;
+    width: 976px;
+    height: 300px;
+    font-family: var(--font2);
+    font-size: 16px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+input {
+    font-family: var(--font2);
+    font-size: 16px;
 }
 
 footer {
