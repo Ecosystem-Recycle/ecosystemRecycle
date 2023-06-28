@@ -178,6 +178,7 @@ section{
     background-color: white;
     border: 2px solid #d9d9d9;
     border-radius: 10px;
+    box-shadow: 3px 7px 10px 0px rgba(0, 0, 0, 0.25); 
     width: 40%;
     height: 100%;
     display: flex;
@@ -189,33 +190,41 @@ section{
     width: 90%;
     margin-top: 40px;
     font-family: var(--font2);
-    font-size: 17px;
+    font-size: 15px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
     align-self: center;
 }
 .contatos{
-    background-color: brown;
     font-family: var(--font2);
     font-size: 15px;
     width: 80%;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    margin-left: -25px;
 
 }
 .email{
-    /* background-color: aqua; */
     justify-content:flex-start;
 
 }
 .email>img{
-    width: 30px;
-    height: 22px;
-    /* margin-left: 10px; */
-    margin-right: 10px;
+    width: 27px;
+    height: 19px;
+    background-color: #000;
+    color: forestgreen;
+    margin-right: 15px;
+}
+.whats{
+    justify-content: flex-start;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 .whats>img{
-    
+    width: 22px;
+    height: 20px;
+    background-color: #000;
+    margin-right: 19px;
 }
 
 
