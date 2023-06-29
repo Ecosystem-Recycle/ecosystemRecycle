@@ -117,9 +117,41 @@ aside {
     padding-top: 50px;
 }
 
+aside ul{
+    list-style-type: none;
+    color: black;
+}
+
+/* ####### ESPAÇO ENTRE SEGUNDO E TERCEIRO LI ########## */
+aside li:nth-child(2){
+    padding: 1rem 0;
+}
+
+aside a{
+    color: black;
+    font-family: var(--font2);
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding: 0 15px;   
+}
+
+/* ####### Estilização do Elemento selecionado no ASIDE ########## */
+
+aside li:nth-child(1) a  {
+    color:  #9319CC;
+    font-weight: 900px;
+    border: 3px solid #9319CC;
+    border-radius: 10px;
+    padding: 5px 15px;
+    background: rgba(159, 47, 187, 0.30);
+    
+}
+
 .menu_lateral {
     font-family: var(--font2);
     font-size: 24px;
+    width: 100%;
 }
 
 .menu_direito {
@@ -274,6 +306,8 @@ textarea {
     color: var(--branco);
 }
 
+
+
 /* button {
 
 } */
@@ -295,7 +329,12 @@ textarea {
 }
 
 .alinhamentoImg img {
-    margin: 20px 0;
+    justify-content: stretch;
+    align-items: center;
+}
+
+.alinhamentoIcone {
+ 
 }
 
 .botao {
