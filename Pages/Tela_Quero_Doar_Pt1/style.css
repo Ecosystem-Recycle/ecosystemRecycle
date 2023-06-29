@@ -107,7 +107,6 @@ h1{
 }
 
 .marginAside{
-    /* background-color: aqua; */
     width: 70%;
     display: flex;
     justify-content: space-between;
@@ -115,7 +114,6 @@ h1{
 }
 
 .aside{
-    /* background-color: #f95d5d; */
     display: flex;
     flex-direction: column;
     width: 22%;
@@ -130,8 +128,12 @@ h1{
 }
 
 .ladoDireito{
-    background-color: #EAF207;
     width: 73%;
+}
+
+.ladoDireito img{
+    width: 70%;
+    border-radius: 20px;
 }
 
 .sub_titulo{
@@ -149,7 +151,64 @@ h1{
 }
 
 .produtos{
-    border: 1px solid black;
+    border: 1px solid rgb(154, 153, 153);
+    border-radius: 20px;
+    box-shadow: 10px 10px 25px #989a9a;
+}
+.parte_de_cima, .parte_de_baixo{
+    padding: 30px;
+    display: flex;
+    margin-left: 85px;
+}
+
+.parte_de_cima p, .parte_de_baixo p{
+    font-family: var(--font2);
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px;
+}
+.p1{
+    margin-left: 25px;
+}
+.p2{
+    margin-left: 45px;
+}
+.p3{
+    margin-left: 40px;
+}
+.p4{
+    margin-left: 20px;
+}
+
+.btn_produtos{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 70px;
+    margin-bottom: 60px;
+
+}
+
+.btn_produtos a{
+    border: 4px solid #9319CC;
+    border-radius: 30px;
+    padding: 0 35px;
+    width: 220px;
+    text-align: center;
+    font-family: var(--font1);
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    color: #9319CC;
+    text-transform: uppercase;
+}
+.aside a:hover{
+    border: 4px solid #9319CC;
+    border-radius: 10px;
+    font-size: 17px;
+    background-color: rgb(159, 47, 187, 0.4);
+    color: #9319CC;
+    font-weight: bold;
+    padding: 1px 5px;
 }
 
 /* #### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
@@ -351,8 +410,6 @@ footer{
 }
 
 /* @media screen and (max-width: 1010px) {
-
-   
 
 } */
 
