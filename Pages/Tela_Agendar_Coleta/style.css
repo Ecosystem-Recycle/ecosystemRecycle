@@ -106,42 +106,184 @@ h1{
     overflow: hidden;
 }
 
-/* #### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
+section{
+    width: 100%;
+    /* height: calc(100vh - 380px); */
+    height: 1100px;
+    display: flex;
+    align-items: center;
+}
+.container{
+    display:flex;
+    width: 75%;
+    height: 90%;
+    align-items: center;
+    /* background-color: #9F2FBB; */
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 260px;
+    height: 100%;
+    margin-left: 100px;
+    padding-top: 20px;
+    /* background-color: aqua; */
+}
+aside>a{
+    font-family: var(--font2);
+    font-size: 18px;
+    text-align: start;
+    padding-left: 12px;
+
+}
+aside>a:nth-child(2){
+    border: 2px solid #9319CC;
+    background: rgba(159, 47, 187, 0.30);
+    border-radius: 7px;
+    margin: 10px 0;
+    padding: 5px 0 5px 10px;
+}
+.conteudoPublicacoes{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.headerPublicacoes{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 90%;
+}
+.headerPublicacoes>h2{
+    font-family: var(--font1);
+    font-size: 25px;
+}
+.headerPublicacoes>p{
+    font-family: var(--font2);
+    font-size: 15px;
+    color: #9C9C9C;
+    margin-bottom: 50px;
+}
+.containerCard{
+    width: 90%;
+    height: 80%;
+    border: 1px solid rgba(156, 156, 156, 0.25);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EAF207;
+    margin-bottom: 100px;
+}
+.card{
+    display:flex;
+    border: 1px solid #000;
+    /* border-radius: 10px; */
+    /* box-shadow: 4px 7px 4px 2px rgba(0, 0, 0, 0.25);  */
+    width: 90%;
+    height:350px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card>div>img{
+    width: 210px;
+    height: 135px;
+    margin-right: 25px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.cardDireita{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.cardInformacao>h2{
+    font-family: var(--font1);
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.cardInformacao>p{
+    font-family: var(--font2);
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+.cardInformacao>div{
+    display: flex;
+    font-family: var(--font2);
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+.cardInformacao>div>div{
+    margin-left: 10px;
+}
+.cardBottom{
+    background-color: #045328;
+    width: 90%;
+}
+.cardBottomPt1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.cardBottomPt1>div:nth-child(1){
+    /* background-color: #9F2FBB; */
+    display: flex;
+    flex-direction: column;
+}
+.cardBottomPt1>div:nth-child(1)>textarea{
+    /* background-color: #9F2FBB; */
+    width: 380px;
+    height: 35px;
+    border: 1px solid #9C9C9C;
+    border-radius: 6px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+}
+.cardBottomPt1>div:nth-child(2){
+    /* background-color: #9F2FBB; */
+    display: flex;
+    flex-direction: column;
+}
+.cardBottomPt1>div:nth-child(2)>textarea{
+    /* background-color: #9F2FBB; */
+    width: 380px;
+    height: 35px;
+    border: 1px solid #9C9C9C;
+    border-radius: 6px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+}
+.cardBottomPt2{
+    display: flex;
+    flex-direction: column;  
+}
+.cardBottomPt2>textarea{
+    /* background-color: #9319CC; */
+    height: 200px;
+    border: 1px solid #9C9C9C; 
+    border-radius: 6px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+}
+.containerCard>a{
+    align-self: flex-end;
+    border-radius:30px;
+    border: 3px solid #9F2FBB; 
+    padding: 0 12px;
+    text-transform: uppercase;
+    font-family: var(--font2);
+    font-size: 11px;
+    font-weight: bold;
+    color: #9F2FBB;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
 
 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
 
 
-################################################## */
 
 footer{
 	background: var(--verde1);
