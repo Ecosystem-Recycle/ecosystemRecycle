@@ -56,7 +56,7 @@ header nav{
 }
 
 
-#menu_login, #menu_login2{
+#menu_login, #menu_login2, #menu_notifique2, #menu_notifique1{
     display: none;
     flex-direction: column;
     width: 350px;
@@ -70,16 +70,19 @@ header nav{
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
+#menu_notifique2, #menu_notifique1{
+    top: -5px;
+    right: -40px;
+    width: 400px;
+}
 
-
-#menu_login_pt1{
+#menu_login_pt1, #menu_not_pt1{
     border-bottom: 1px solid #ccc;
     padding-bottom: 5px;
-    margin-bottom: 15px;
     width: 100%;
 }
 
-#menu_login_pt1 > div{
+#menu_login_pt1 > div, #menu_not_pt1 > div{
     height: 100%;
 
 
@@ -89,6 +92,10 @@ header nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+#menu_not_pt1 > div{
+    padding: 15px 0;
 }
 
 .Menu_USER_div_text{
@@ -115,18 +122,29 @@ header nav{
     font-size: 22px;
 }
 
+#menu_not_pt1 h5{
+    font-size: 18px;
+}
+
 #text_Login p{
     font-size: 14px;
 }
 
-#menu_login_pt2 {
+#menu_login_pt2, #menu_not_pt2{
     margin-bottom: 10px;
 }
 
-#menu_login_pt2 img{
-    width: 25px;
-    height: 25px;
-    margin-right: 3px;
+/* #menu_login_pt2 img{
+    width: 90px;
+    height: 90px;
+    margin-right: 10px;
+} */
+
+
+#menu_not_pt2 img{
+    width: 90px;
+    height: 90px;
+    margin-right: 10px;
 }
 
 #menu_login_pt2 a{
@@ -137,10 +155,71 @@ header nav{
 }
 
 
-#menu_login_pt2 > div{
+#menu_login_pt2 > div, #menu_not_pt2  section > div{
     width: 90%;
     margin: 0 auto;
 }
+
+#menu_not_pt2 section > div{
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+}
+
+#menu_not_pt2 > section:nth-child(1){
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--branco);
+}
+
+#menu_not_pt2_Itens{
+    display: flex;
+    width: 100%;
+}
+
+#menu_login_pt2_Itens:first-child {
+    /* padding-bottom: 10px; */
+}
+
+.conteudo_notifique2{
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo_notifique2 span{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: var(--font2);
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.conteudo_notifique2 p{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: var(--font2);
+    padding-bottom: 15px;
+}
+
+.conteudo_notifique2 strong{
+    font-size: 12px;
+    font-weight: 700;
+    font-family: var(--font2);
+}
+
+.btn_notifique2 {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.btn_notifique2 a{
+    border: 2px solid var(--branco);
+    font-size: 11px;
+    border-radius: 15px;
+    padding: 2px 10px;
+}
+
 
 #menu_login_pt2  div:nth-child(-n+2){
     padding-bottom: 10px;
@@ -148,8 +227,9 @@ header nav{
 
 #menu_login_pt2_Itens{
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
+    flex-direction: column;
+    margin-top: 15px;
 }
 
 #menu_login_pt2_Itens2{
@@ -158,7 +238,6 @@ header nav{
 
 #menu_login_pt2_Itens div, #menu_login_pt2_Itens2 {
     display: flex;
-    align-items: center;
 }
 
 .menu_barras{
@@ -221,24 +300,24 @@ header nav a{
     color: var(--branco);
 }
 
-.log_doador img{
+.log_doador > a img{
     height: 25px;
 }
 
 #seta_BAXIO{
     height: 12px;
-    padding-right: 5px;
+    padding-left: 3px;
 }
 
-.log_doador a div img:first-child{
-    height: 30px;
+.log_doador > div a  p{
+    padding-left: 4px;
 }
 
 .log_doador  a:nth-child(even){
     padding-left: 10px;
 }
 
-.log_doador p{
+.log_doador > p{
     padding: 0 7px 0 5px;
 }
 
