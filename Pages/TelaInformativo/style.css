@@ -584,23 +584,24 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 500px; 
+        width: 90%; 
     }
     .tabela_periodica p{
         display: flex;
         justify-content: center;
         text-align: justify;
-        width: 500px; 
+        width: 90%;
+        max-width: 500px; 
     }
     .tabela {
         display: flex;
         justify-content: center;
-    width: 500px;
+        width: 90%;
     }
 
     .logistica img {
-        width: 300px;
-        height: 300px;
+        /* width: 300px;
+        height: 300px; */
         margin-top: 110px;
         background-color: antiquewhite;
     } 
@@ -622,12 +623,18 @@ footer {
         max-height: 300px;
     }
 
+    .logistica {
+        flex-direction: column;
+        align-items: center;
+    }
+
     .logistica img {
         background-color: #1B8D73;
+
         
         
-        width: 100px;
-        height: 100px;
+        width: 90%;
+        height: 90%;
     }
 
     .div_banner img {
