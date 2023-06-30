@@ -177,6 +177,9 @@ header nav{
     width: 100%;
 }
 
+#menu_login_pt2_Itens:first-child {
+    /* padding-bottom: 10px; */
+}
 
 .conteudo_notifique2{
     display: flex;
@@ -372,7 +375,7 @@ aside a{
 
 /* ####### Estilização do Elemento selecionado no ASIDE ########## */
 
-aside li:nth-child(1) a  {
+aside li:nth-child(2) a  {
     color:var(--roxo);
     font-weight: 900;
     border: 3px solid var(--roxo);
@@ -419,8 +422,7 @@ aside li:nth-child(1) a  {
 .btnVoltar{
     width: 100%;
     display: flex;
-    justify-content: space-around;
-    
+    justify-content: center;
 }
 
 .btnVoltar > a{
@@ -440,222 +442,31 @@ aside li:nth-child(1) a  {
     display: flex;
     justify-items: center;
     margin-bottom: 100px;
-}
 
 
 
-
-.nada_consta {
-    border: 3px solid #9c9c9c;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    /* align-items: center; */
-    /* margin-bottom: 50px; */
-    padding: 30px;
-}
-
-.nada_consta input {
-    width: 300px;
-
-}
-
-.nomeMarca {
-    border-radius: 10px;
-    padding-bottom: 30px;
-    /* justify-content: space-between; */
-}
-
-/* .nomeMarca form input{
-    padding-bottom: 30px;
-} */
-
-.nomeMarca label {
-    display: flex;
-    flex-direction: column;
-    font-family: var(--font1);
-    font-size: 20px;
-}
-
-.nomeMarca input {
-    width: 976px;
-}
-
-.descricao {
-    padding-bottom: 30px;
-}
-
-.descricao label {
-    font-family: var(--font1);
-    font-size: 20px;
-}
-
-textarea {
-    width: 884px;
-    padding-bottom: 30px;
-}
-
-.data {
-    font-family: var(--font1);
-    font-size: 20px;
-    padding-bottom: 30px;
-}
-
-.agendamento {
-    padding-bottom: 30px;
-}
-
-.horario {
-    font-family: var(--font1);
-    font-size: 20px;
-    padding-bottom: 30px;
-}
-
-.tipo {
-    font-family: var(--font1);
-    font-size: 20px;
-}
-
-.tipoEletronico {
-    padding-bottom: 30px;
-}
-
-.celular .computador .monitor .perifericos .baterias .outros {
-    font-family: var(--font2);
-    /* font-size: 51px; */
-}
-
-.condicoes {
-    font-family: var(--font1);
-    font-size: 20px;
-}
-
-.condicoesMateriais {
-    padding-bottom: 30px;
-}
-
-.qtdItens {
-    font-family: var(--font1);
-    font-size: 20px;
-}
-
-.itens {
-    padding-bottom: 30px;
-}
-
-.arquivos {
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 30px;
-}
-
-.adicionarFotos {
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    border: 3px solid #9c9c9c;
-    border-radius: 20px;
-}
-
-.arquivos img {
-    max-width: 100%;
-    max-height: 100%;
-}
-
-.adicionarFotos button {
-    height: 50px;
-    width: 100%;
-    border-radius: 0px 0px 18px 18px;
-    /* border-bottom-left-radius: 18px;
-    border-bottom-right-radius: 18px; */
-    border-end-end-radius: 0px 0px 18px 18px;
-    background-color: #045328;
-    /* border-radius: 5px; */
-    font-family: var(--font2);
-    font-size: 20px;
-    color: var(--branco);
+    /* ############ REMOVER height          ############# */
+    height: 500px;
 }
 
 
 
 
 
-.alinhamentoImg {
-    /* display: flex; */
-    justify-content: stretch;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 542px;
-    padding-left: 4%;
-    border: 3px solid #9c9c9c;
-    border-radius: 20px;
-    flex-direction: row;
-    display: grid;
-    grid-template-columns: 33% 34% 38%;
-    grid-auto-columns: 141%;
-    box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.25);
-}
 
-.alinhamentoImg img {
-    justify-content: stretch;
-    align-items: center;
-}
 
-.alinhamentoIcone {
- 
-}
 
-.botao {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
 
-/* .btnSalvar {
-    border: 5px solid #9319CC;
-    border-radius: 15px;
-    padding: 10px 150px;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: var(--font1);
-    color: #9319CC;
-}
 
-.btnCancelar {
-    border: 5px solid #9319CC;
-    border-radius: 15px;
-    padding: 10px 150px;
-    font-size: 20px;
-    /* font-weight: 800; */
-    font-weight: bold;
-    font-family: var(--font1);
-    color: #9319CC;
-} */
 
-.input {
-    border: 1px solid #9C9C9C;
-    border-radius: 10px;
-    width: 461px;
-    height: 40px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    font-family: var(--font2);
-}
 
-textarea {
-    border: 1px solid #9C9C9C;
-    border-radius: 10px;
-    width: 976px;
-    height: 300px;
-    font-family: var(--font2);
-    font-size: 16px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-}
 
-input {
-    font-family: var(--font2);
-    font-size: 16px;
-}
+
+
+
+
+
+
 
 footer{
 	background: var(--verde1);

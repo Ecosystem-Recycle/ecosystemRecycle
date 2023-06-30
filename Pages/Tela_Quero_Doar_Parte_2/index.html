@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap" rel="stylesheet">
     <script src="../../js/scripts.js" defer></script>
-    <title>Página Quero Doar Parte 2 - Ecosystem & Recycle</title>
+    <title>Página Minhas Doações - Ecosystem & Recycle </title>
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -19,13 +19,117 @@
     <header>
         <div class="div_headerPosition wrapper">
             <img src="../../img/logo_vertical.png" alt="">
-            <a onclick="mostrarMenu()" class="menu_barras" id="menu_barras" href="#" aria-label="Abrir o menu do Header"
-                aria-expanded="false" aria-controls="menu_links" aria-haspopup="true"> <svg
-                    xmlns="http://www.w3.org/2000/svg" height="1em"
-                    viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                    <path
-                        d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
-                </svg></a>
+            <div>
+                <div class="log_doador" id="log_doador2">
+
+                    <div class="grupo_login">
+                        <div id="menu_login">
+                            <div id="menu_login_pt1">
+                                <div>
+                                    <div class="Menu_USER_div_text">
+                                        <img id="menu_login_pt1_img" src="../../img/userLogado.png" alt="">
+                                        <div id="text_Login">
+                                            <h5>Olá Luís,</h5>
+                                            <p>Seja bem vindo!</p>
+                                        </div>
+                                    </div>
+                                    <a href="#" onclick="abrirFechar()">
+                                        <img src="../../img/exit.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div id="menu_login_pt2">
+                                <div>
+                                    <div id="menu_login_pt2_Itens">
+                                        <div>
+                                            <img src="../../img/Home_menuDoadorICO.svg" alt="">
+                                            <a href="#">QUERO DOAR</a>
+                                        </div>
+                                        <div>
+                                            <img src="../../img/Home_Vizualizar_menuDoadorICO.svg" alt="">
+                                            <a href="#">VIZUALIAR MINHAS DOAÇÕES</a>
+                                        </div>
+                                        <div>
+                                            <img src="../../img/Home_Edit_menuDoadorICO.svg" alt="">
+                                            <a href="#">EDITAR PERFIL</a>
+                                        </div>
+                                    </div>
+                                    <div id="menu_login_pt2_Itens2">
+                                        <img src="../../img/Home_Logout_menuDoadorICO.svg" alt="">
+                                        <a href="#">SAIR</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="menu_notifique1">
+                            <div id="menu_not_pt1">
+                                <div>
+                                    <h5>NOTIFICAÇÕES</h5>
+                                    <a href="#" onclick="abrirFecharNote1()">
+                                        <img src="../../img/exit.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div id="menu_not_pt2">
+                                <section>
+                                    <div>
+                                        <div id="menu_not_pt2_Itens">
+                                            <img src="../../img/img_Notification_001.png" alt="">
+                                            <div class="conteudo_notifique2">
+                                                <span>Você tem uma nova doação agendada!</span>
+                                                <p>A <strong>ReciclaTudo</strong> tem interesse em seu material
+                                                    publicado, clique no botão abaixo para vizualizar o agendamento e
+                                                    confirmar o horário!</p>
+                                                <div class="btn_notifique2">
+                                                    <a href="#">visualisar</a>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </section>
+                                <section>
+                                    <div>
+                                        <div id="menu_not_pt2_Itens">
+                                            <img src="../../img/img_Notification_002.png" alt="">
+                                            <div class="conteudo_notifique2">
+                                                <span>Agendamento confirmado</span>
+                                                <p>Você confirmou o horário de agendamento para o dia <strong>15/05/23
+                                                        às 10:00hrs</strong> com sucesso. A <strong>EcoNorte</strong>
+                                                    irá fazer a coleta no dia e horário agendado.</p>
+                                                <div class="btn_notifique2">
+                                                    <a href="#">visualisar</a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                        <a href="#" onclick="abrirFechar()">
+                            <img src="../../img/Home_ico_User.svg" alt="Icone de Logado">
+                            <p>Lúis</p>
+                            <img id="seta_BAXIO" src="../../img/Home_ico_setaBaixo.svg" alt="Icone de Menu pra baixo">
+                        </a>
+                    </div>
+
+                    <a href="#" onclick="abrirFecharNote1()">
+                        <img src="../../img/Home_ico_notificacao.svg" alt="Icone de Notificação">
+                    </a>
+                </div>
+                <a onclick="mostrarMenu()" class="menu_barras" id="menu_barras" href="#"
+                    aria-label="Abrir o menu do Header" aria-expanded="false" aria-controls="menu_links"
+                    aria-haspopup="true"> <svg xmlns="http://www.w3.org/2000/svg" height="1em"
+                        viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                        <path
+                            d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+                    </svg></a>
+            </div>
+
             <nav id="menu_links">
                 <a href="#" class="underline">página inicial</a>
                 <a href="#" class="underline">nossa história</a>
@@ -33,153 +137,262 @@
                 <a href="#" class="underline">serviços</a>
                 <a href="#" class="underline">dúvidas</a>
                 <a href="#" class="underline">contato</a>
-                <a href="#" class="btn_entrar">entrar</a>
+                <div class="log_doador" id="log_doador1">
+
+                    <div class="grupo_login">
+                        <div id="menu_login2">
+                            <div id="menu_login_pt1">
+                                <div>
+                                    <div class="Menu_USER_div_text">
+                                        <img id="menu_login_pt1_img" src="../../img/userLogado.png" alt="">
+                                        <div id="text_Login">
+                                            <h5>Olá Luís,</h5>
+                                            <p>Seja bem vindo!</p>
+                                        </div>
+                                    </div>
+                                    <a href="#" onclick="abrirFechar2()">
+                                        <img src="../../img/exit.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div id="menu_login_pt2">
+                                <div>
+                                    <div id="menu_login_pt2_Itens">
+                                        <div>
+                                            <img src="../../img/Home_menuDoadorICO.svg" alt="">
+                                            <a href="#">QUERO DOAR</a>
+                                        </div>
+                                        <div>
+                                            <img src="../../img/Home_Vizualizar_menuDoadorICO.svg" alt="">
+                                            <a href="#">VIZUALIAR MINHAS DOAÇÕES</a>
+                                        </div>
+                                        <div>
+                                            <img src="../../img/Home_Edit_menuDoadorICO.svg" alt="">
+                                            <a href="#">EDITAR PERFIL</a>
+                                        </div>
+                                    </div>
+                                    <div id="menu_login_pt2_Itens2">
+                                        <img src="../../img/Home_Logout_menuDoadorICO.svg" alt="">
+                                        <a href="#">SAIR</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div id="menu_notifique2">
+                            <div id="menu_not_pt1">
+                                <div>
+                                    <h5>NOTIFICAÇÕES</h5>
+                                    <a href="#" onclick="abrirFecharNote2()">
+                                        <img src="../../img/exit.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div id="menu_not_pt2">
+                                <section>
+                                    <div>
+                                        <div id="menu_not_pt2_Itens">
+                                            <img src="../../img/img_Notification_001.png" alt="">
+                                            <div class="conteudo_notifique2">
+                                                <span>Você tem uma nova doação agendada!</span>
+                                                <p>A <strong>ReciclaTudo</strong> tem interesse em seu material
+                                                    publicado, clique no botão abaixo para vizualizar o agendamento e
+                                                    confirmar o horário!</p>
+                                                <div class="btn_notifique2">
+                                                    <a href="#">visualisar</a>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </section>
+                                <section>
+                                    <div>
+                                        <div id="menu_not_pt2_Itens">
+                                            <img src="../../img/img_Notification_002.png" alt="">
+                                            <div class="conteudo_notifique2">
+                                                <span>Agendamento confirmado</span>
+                                                <p>Você confirmou o horário de agendamento para o dia <strong>15/05/23
+                                                        às 10:00hrs</strong> com sucesso. A <strong>EcoNorte</strong>
+                                                    irá fazer a coleta no dia e horário agendado.</p>
+                                                <div class="btn_notifique2">
+                                                    <a href="#">visualisar</a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                        <a href="#" onclick="abrirFechar2()">
+                            <img src="../../img/Home_ico_User.svg" alt="Icone de Logado">
+                            <p>Lúis</p>
+                            <img id="seta_BAXIO" src="../../img/Home_ico_setaBaixo.svg" alt="Icone de Menu pra baixo">
+                        </a>
+                    </div>
+                    <a href="#" onclick="abrirFecharNote2()">
+                        <img src="../../img/Home_ico_notificacao.svg" alt="Icone de Notificação">
+                    </a>
+                </div>
             </nav>
         </div>
     </header>
     <main>
-        <h1>página quero doar parte 2 ecosystem & recycle</h1>
-
+        <h1>página minhas doacoes ecosystem & recycle</h1>
         <section>
-            <div class="wrapper separacao_conteudo">
+            <div class="conteudo_doacoes wrapper">
                 <aside>
-                    <ul class="menu_lateral">
-
-                        <li> <a href="#"> Quero Doar </a> </li>
-
-                        <li> <a href=""> Visualizar Minhas Doações </a> </li>
-
-                        <li> <a href=""> Editar Perfil </a> </li>
-
+                    <ul>
+                        <li><a href="#">quero doar</a></li>
+                        <li><a href="#">visualizar minhas doações</a></li>
+                        <li><a href="#">editar perfil</a></li>
                     </ul>
                 </aside>
-                <div class="menu_direito">
-                    <h2>Quero Doar!</h2>
-                    <p>Aqui você pode detalhar e categorizar as informações <br> dos produtos que gostaria de cadastrar.
-                    </p>
-                    <!-- </div> -->
-                    <div class="nada_consta">
-                        <div class="nomeMarca">
-                            <form>
-                                <label for="fname">Informe quais produtos pretende doar:</label>
-                                <input class="input" type="text" id="fname" name="fname"> <br><br>
-                                <label for="lname">Informe qual a marca destes produtos:</label>
-                                <input class="input" type="text" id="lname" name="lname">
-                            </form>
-                        </div>
-
-                        <div class="descricao">
-                            <form>
-                                <label for="descricao">Descrição:</label> <br>
-                                <!-- <input type="text" id="descricao" name="descricao"> <br> -->
-                                <textarea id="descricao" name="descricao" rows="10" cols="40"></textarea> <br>
-                            </form>
-                        </div>
-
-                        <div class="data">
-                            <form>
-                                <label for="data">Data para Coleta do Lixo:</label>
-                                <input class="input" type="date" name="calendario" id="calendario">
-                            </form>
-                        </div>
-
-                        <div class="agendamento">
-                            <form>
-                                <label class="horario" for="horario">Disponibilidade de horário para retirada:</label>
-                                <br><br>
-                                <input class="teste" type="radio" id="manha" name="fav_language" value="Manhã">
-                                <label class="manha" for="manha">Manhã: de 09:00h às 12:00h</label> <br>
-                                <input type="radio" id="tarde" name="fav_language" value="Tarde">
-                                <label class="tarde" for="tarde">Tarde: de 13:00h às 18:00h</label> <br>
-                                <input type="radio" id="noite" name="fav_language" value="Noite">
-                                <label class="noite" for="noite">Noite: de 18:00h às 22:00h</label>
-                            </form>
-                        </div>
-
-                        <div class="tipoEletronico">
-                            <form>
-                                <label class="tipo" for="tipoEletronico">Tipo de Eletrônico:</label> <br><br>
-                                <input type="checkbox" id="tipo1" name="tipo1" value="Celular">
-                                <label class="celular" for="tipo1"> Celular</label><br>
-                                <input type="checkbox" id="tipo2" name="tipo2" value="Computador">
-                                <label class="computador" for="tipo2"> Computador</label> <br>
-                                <input type="checkbox" id="tipo3" name="tipo3" value="Monitor">
-                                <label class="monitor" for="tipo3"> Monitor</label> <br>
-                                <input type="checkbox" id="tipo4" name="tipo4" value="Perifericos">
-                                <label class="perifericos" for="tipo4"> Perifericos</label> <br>
-                                <input type="checkbox" id="tipo5" name="tipo5" value="Baterias">
-                                <label class="baterias" for="tipo5"> Baterias</label> <br>
-                                <input type="checkbox" id="tipo6" name="tipo6" value="Outros">
-                                <label class="outros" for="tipo6"> Outros</label>
-                            </form>
-                        </div>
-
-                        <div class="condicoesMateriais">
-                            <form>
-                                <label class="condicoes" for="condicoes">Condição dos Materiais:</label> <br><br>
-                                <input type="radio" id="desmontagem" name="fav_language" value="Desmonstagem">
-                                <label for="desmontagem">Desmontagem/Retirada de Peças</label> <br>
-                                <input type="radio" id="parcial" name="fav_language" value="parcial">
-                                <label for="parcial">Funcionamento Parcial</label> <br>
-                                <input type="radio" id="cuidados" name="fav_language" value="Cuidados">
-                                <label for="cuidados">Requer Cuidados Especiais no Manuseio</label> <br>
-                                <input type="radio" id="descarte" name="fav_language" value="Descarte">
-                                <label for="descarte">Descarte Total</label>
-                            </form>
-                        </div>
-
-                        <div class="itens">
-                            <form class="qtdItens">
-                                Informe a Quantidade de Itens:<input class="input" type="number" name="quantidade"
-                                    min="1" max="100">
-                            </form>
-                        </div>
-
-                        <div class="arquivos">
-                            <div class="adicionarFotos">
-                                
-                                <img src="../Tela_Quero_Doar_Parte_2/img/img_Baterias.png" alt="Upload de Imagem">
-
-                                <!-- <input type="file" accept="image/*"> -->
-                                <button type="file">+ Adicionar Fotos</button>
-                                <!-- <input type="file" id="add-single-img" accept="image"> -->
-                                <!-- <label type="file" for="imagens" >+ Adicionar Fotos</label> -->
-                                <!-- <input type="file" name="arquivos" class="btn btn-success" multiple /> -->
-                                
-                            </div>
-                            <div class="alinhamentoImg">
-                                <img src="../Tela_Quero_Doar_Parte_2/img/img_celular (1).png" alt="Celular">
-                                <!-- <div>
-                                    <img src="../Tela_Quero_Doar_Parte_2/img/ico_img1.png" alt="Icone de excluir">
-                                </div> -->
-                                <img src="../Tela_Quero_Doar_Parte_2/img/img_celular (2).png" alt="Um Celulares">
-                                <!-- <div>
-                                    <img src="../Tela_Quero_Doar_Parte_2/img/ico_img1.png" alt="Icone de excluir">
-                                </div> -->
-
-                                <img src="../Tela_Quero_Doar_Parte_2/img/img_celular.png" alt="Outros Celulares">
-                                <!-- <div>
-                                    <img src="../Tela_Quero_Doar_Parte_2/img/ico_img1.png" alt="Icone de excluir">
-                                </div> -->
-                                <img src="../Tela_Quero_Doar_Parte_2/img/Vector.png" alt="Imagem Vazia 1">
-                                <img src="../Tela_Quero_Doar_Parte_2/img/Vector.png" alt="Imagem Vazia 2">
-                                <img src="../Tela_Quero_Doar_Parte_2/img/Vector.png" alt="Imagem Vazia 3">
-                            </div>
-                        </div>
-
-                        <div class="botao">
-                            <a class="btnSalvar" href="#">Salvar</a>
-                            <a class="btnCancelar" href="#">Cancelar</a>
-                        </div>
-
+                <div class="menu_Direito">
+                    <div class="title">
+                        <h2>Quero Doar!</h2>
+                        <p>Aqui você pode selecionar a<br>categoria do produto que gostaria de cadastrar</p>
                     </div>
-                </div>
+                    <div>
+
+                    
+                            <div class="Conteudo">
+                                <div class="nada_consta">
+                                    <div class="nomeMarca">
+                                        <form>
+                                            <label for="fname">Informe quais produtos pretende doar:</label>
+                                            <input class="input" type="text" id="fname" name="fname"> <br><br>
+                                            <label for="lname">Informe qual a marca destes produtos:</label>
+                                            <input class="input" type="text" id="lname" name="lname">
+                                        </form>
+                                    </div>
+
+                                    <div class="descricao">
+                                        <form>
+                                            <label for="descricao">Descrição:</label> <br>
+                                            <!-- <input type="text" id="descricao" name="descricao"> <br> -->
+                                            <textarea id="descricao" name="descricao" rows="10" cols="40"></textarea>
+                                            <br>
+                                        </form>
+                                    </div>
+
+                                    <div class="data">
+                                        <form>
+                                            <label for="data">Data para Coleta do Lixo:</label>
+                                            <input class="input" type="date" name="calendario" id="calendario">
+                                        </form>
+                                    </div>
+
+                                    <div class="agendamento">
+                                        <form>
+                                            <label class="horario" for="horario">Disponibilidade de horário para
+                                                retirada:</label>
+                                            <br><br>
+                                            <input class="teste" type="radio" id="manha" name="fav_language"
+                                                value="Manhã">
+                                            <label class="manha" for="manha">Manhã: de 09:00h às 12:00h</label> <br>
+                                            <input type="radio" id="tarde" name="fav_language" value="Tarde">
+                                            <label class="tarde" for="tarde">Tarde: de 13:00h às 18:00h</label> <br>
+                                            <input type="radio" id="noite" name="fav_language" value="Noite">
+                                            <label class="noite" for="noite">Noite: de 18:00h às 22:00h</label>
+                                        </form>
+                                    </div>
+
+                                    <div class="tipoEletronico">
+                                        <form>
+                                            <label class="tipo" for="tipoEletronico">Tipo de Eletrônico:</label>
+                                            <br><br>
+                                            <input type="checkbox" id="tipo1" name="tipo1" value="Celular">
+                                            <label class="celular" for="tipo1"> Celular</label><br>
+                                            <input type="checkbox" id="tipo2" name="tipo2" value="Computador">
+                                            <label class="computador" for="tipo2"> Computador</label> <br>
+                                            <input type="checkbox" id="tipo3" name="tipo3" value="Monitor">
+                                            <label class="monitor" for="tipo3"> Monitor</label> <br>
+                                            <input type="checkbox" id="tipo4" name="tipo4" value="Perifericos">
+                                            <label class="perifericos" for="tipo4"> Perifericos</label> <br>
+                                            <input type="checkbox" id="tipo5" name="tipo5" value="Baterias">
+                                            <label class="baterias" for="tipo5"> Baterias</label> <br>
+                                            <input type="checkbox" id="tipo6" name="tipo6" value="Outros">
+                                            <label class="outros" for="tipo6"> Outros</label>
+                                        </form>
+                                    </div>
+
+                                    <div class="condicoesMateriais">
+                                        <form>
+                                            <label class="condicoes" for="condicoes">Condição dos Materiais:</label>
+                                            <br><br>
+                                            <input type="radio" id="desmontagem" name="fav_language"
+                                                value="Desmonstagem">
+                                            <label for="desmontagem">Desmontagem/Retirada de Peças</label> <br>
+                                            <input type="radio" id="parcial" name="fav_language" value="parcial">
+                                            <label for="parcial">Funcionamento Parcial</label> <br>
+                                            <input type="radio" id="cuidados" name="fav_language" value="Cuidados">
+                                            <label for="cuidados">Requer Cuidados Especiais no Manuseio</label> <br>
+                                            <input type="radio" id="descarte" name="fav_language" value="Descarte">
+                                            <label for="descarte">Descarte Total</label>
+                                        </form>
+                                    </div>
+
+                                    <div class="itens">
+                                        <form class="qtdItens">
+                                            <span>Informe a Quantidade de Itens: </span><input class="input" type="number"
+                                                name="quantidade" min="1" max="100">
+                                        </form>
+                                    </div>
+
+                                    <div class="arquivos">
+                                        <div class="adicionarFotos">
+
+                                            <img src="../Tela_Quero_Doar_Parte_2/img/img_Baterias.png"
+                                                alt="Upload de Imagem">
+
+                                            <!-- <input type="file" accept="image/*"> -->
+                                            <button type="file">+ Adicionar Fotos</button>
+                                            <!-- <input type="file" id="add-single-img" accept="image"> -->
+                                            <!-- <label type="file" for="imagens" >+ Adicionar Fotos</label> -->
+                                            <!-- <input type="file" name="arquivos" class="btn btn-success" multiple /> -->
+
+                                        </div>
+                                        <div class="alinhamentoImg">
+                                            <img src="../Tela_Quero_Doar_Parte_2/img/img_celular (1).png" alt="Celular">
+                                            <!-- <div>
+                                    <img src="../Tela_Quero_Doar_Parte_2/img/ico_img1.png" alt="Icone de excluir">
+                                </div> -->
+                                            <img src="../Tela_Quero_Doar_Parte_2/img/img_celular (2).png"
+                                                alt="Um Celulares">
+                                            <!-- <div>
+                                    <img src="../Tela_Quero_Doar_Parte_2/img/ico_img1.png" alt="Icone de excluir">
+                                </div> -->
+
+                                            <img src="../Tela_Quero_Doar_Parte_2/img/img_celular.png"
+                                                alt="Outros Celulares">
+                                            <!-- <div>
+                                    <img src="../Tela_Quero_Doar_Parte_2/img/ico_img1.png" alt="Icone de excluir">
+                                </div> -->
+                                            <img src="../Tela_Quero_Doar_Parte_2/img/Vector.png" alt="Imagem Vazia 1">
+                                            <img src="../Tela_Quero_Doar_Parte_2/img/Vector.png" alt="Imagem Vazia 2">
+                                            <img src="../Tela_Quero_Doar_Parte_2/img/Vector.png" alt="Imagem Vazia 3">
+                                        </div>
+                                    </div>
+
+                                    <!-- <div class="botao">
+                                        <a class="btnSalvar" href="#">Salvar</a>
+                                        <a class="btnCancelar" href="#">Cancelar</a>
+                                    </div> -->
+
+                                    <div class="btnVoltar">
+                                        <a href="#">Salvar</a>
+                                        <a href="#">Cancelar</a>
+                                    </div>
+
+                                </div>
+                            </div>
         </section>
-
-        <!-- ################################################## 
-    
-     -->
-
 
     </main>
     <footer>
