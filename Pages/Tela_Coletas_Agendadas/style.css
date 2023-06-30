@@ -296,7 +296,7 @@ aside a{
 
 /* ####### Estilização do Elemento selecionado no ASIDE ########## */
 
-aside li:nth-child(2) a  {
+aside li:nth-child(1) a  {
     color:var(--roxo);
     font-weight: 900;
     border: 3px solid var(--roxo);
@@ -386,7 +386,13 @@ aside li:nth-child(2) a  {
 
 
 
-
+.coletas{
+    display: flex;
+    flex-direction: row;
+    background-color: #045328;
+    justify-content: space-between;
+    width: 1100px;
+}
 
 
 footer{
