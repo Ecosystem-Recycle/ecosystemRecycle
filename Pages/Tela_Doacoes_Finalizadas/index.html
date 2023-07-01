@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap" rel="stylesheet">
     <script src="../../js/scripts.js" defer></script>
-    <title>Página Doacoes Finalizadas - Ecosystem & Recycle</title>
+    <title>Página Minhas Doações - Ecosystem & Recycle </title>
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -17,7 +17,107 @@
     <header>
         <div class="div_headerPosition wrapper">
             <img src="../../img/logo_vertical.png" alt="">
-            <a onclick="mostrarMenu()" class="menu_barras" id="menu_barras" href="#" aria-label="Abrir o menu do Header" aria-expanded="false" aria-controls="menu_links" aria-haspopup="true"> <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></a>
+            <div>
+                <div class="log_doador" id="log_doador2">
+                    
+                        <div class="grupo_login" >
+                            <div id="menu_login">
+                                <div id="menu_login_pt1">
+                                    <div>
+                                        <div class="Menu_USER_div_text">
+                                            <img id="menu_login_pt1_img" src="../../img/userLogado.png" alt="">
+                                            <div id="text_Login">
+                                                <h5>Olá Luís,</h5>
+                                                <p>Seja bem vindo!</p>
+                                            </div>
+                                        </div>
+                                        <a  href="#" onclick="abrirFechar()">
+                                            <img src="../../img/exit.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                                <div id="menu_login_pt2">
+                                    <div>
+                                        <div id="menu_login_pt2_Itens">
+                                            <div>
+                                                <img src="../../img/Home_menuDoadorICO.svg" alt="">
+                                                <a href="#">QUERO DOAR</a>
+                                            </div>
+                                            <div>
+                                                <img src="../../img/Home_Vizualizar_menuDoadorICO.svg" alt="">
+                                                <a href="#">VIZUALIAR MINHAS DOAÇÕES</a>
+                                            </div>
+                                            <div>
+                                                <img src="../../img/Home_Edit_menuDoadorICO.svg" alt="">
+                                                <a href="#">EDITAR PERFIL</a>
+                                            </div>
+                                        </div>
+                                        <div id="menu_login_pt2_Itens2">
+                                            <img src="../../img/Home_Logout_menuDoadorICO.svg" alt="">
+                                            <a href="#">SAIR</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="menu_notifique1">
+                                <div id="menu_not_pt1">
+                                    <div>
+                                        <h5>NOTIFICAÇÕES</h5>
+                                        <a  href="#" onclick="abrirFecharNote1()">
+                                            <img src="../../img/exit.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                                <div id="menu_not_pt2">
+                                    <section>
+                                        <div>
+                                            <div id="menu_not_pt2_Itens">
+                                                <img src="../../img/img_Notification_001.png" alt="">
+                                                <div class="conteudo_notifique2">
+                                                    <span>Você tem uma nova doação agendada!</span>
+                                                    <p>A <strong>ReciclaTudo</strong> tem interesse em seu material publicado, clique no botão abaixo para vizualizar o agendamento e confirmar o horário!</p>
+                                                    <div class="btn_notifique2">
+                                                        <a href="#">visualisar</a> 
+                                                    </div>
+                                                    
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </section>
+                                    <section>
+                                        <div>
+                                            <div id="menu_not_pt2_Itens">
+                                                <img src="../../img/img_Notification_002.png" alt="">
+                                                <div class="conteudo_notifique2">
+                                                    <span>Agendamento confirmado</span>
+                                                    <p>Você confirmou o horário de agendamento para o dia  <strong>15/05/23 às 10:00hrs</strong> com sucesso. A <strong>EcoNorte</strong> irá fazer a coleta no dia e horário agendado.</p>
+                                                    <div class="btn_notifique2">
+                                                        <a href="#">visualisar</a> 
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                            <a  href="#" onclick="abrirFechar()">
+                                <img src="../../img/Home_ico_User.svg" alt="Icone de Logado">
+                                <p>Lúis</p>
+                                <img id="seta_BAXIO" src="../../img/Home_ico_setaBaixo.svg" alt="Icone de Menu pra baixo">
+                            </a>
+                        </div>
+                    
+                    <a href="#" onclick="abrirFecharNote1()">
+                        <img src="../../img/Home_ico_notificacao.svg" alt="Icone de Notificação">
+                    </a>
+                </div>
+                <a onclick="mostrarMenu()" class="menu_barras" id="menu_barras" href="#" aria-label="Abrir o menu do Header" aria-expanded="false" aria-controls="menu_links" aria-haspopup="true"> <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></a>
+            </div>
+            
             <nav id="menu_links">
                 <a href="#" class="underline">página inicial</a>
                 <a href="#" class="underline">nossa história</a>
@@ -25,45 +125,148 @@
                 <a href="#" class="underline">serviços</a>
                 <a href="#" class="underline">dúvidas</a>
                 <a href="#" class="underline">contato</a>
-                <a href="#" class="btn_entrar">Luís</a>
+                <div class="log_doador" id="log_doador1">
+
+                        <div class="grupo_login">
+                            <div id="menu_login2">
+                                <div id="menu_login_pt1">
+                                    <div>
+                                        <div class="Menu_USER_div_text">
+                                            <img id="menu_login_pt1_img" src="../../img/userLogado.png" alt="">
+                                            <div id="text_Login">
+                                                <h5>Olá Luís,</h5>
+                                                <p>Seja bem vindo!</p>
+                                            </div>
+                                        </div>
+                                        <a  href="#" onclick="abrirFechar2()">
+                                            <img src="../../img/exit.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                                <div id="menu_login_pt2">
+                                    <div>
+                                        <div id="menu_login_pt2_Itens">
+                                            <div>
+                                                <img src="../../img/Home_menuDoadorICO.svg" alt="">
+                                                <a href="#">QUERO DOAR</a>
+                                            </div>
+                                            <div>
+                                                <img src="../../img/Home_Vizualizar_menuDoadorICO.svg" alt="">
+                                                <a href="#">VIZUALIAR MINHAS DOAÇÕES</a>
+                                            </div>
+                                            <div>
+                                                <img src="../../img/Home_Edit_menuDoadorICO.svg" alt="">
+                                                <a href="#">EDITAR PERFIL</a>
+                                            </div>
+                                        </div>
+                                        <div id="menu_login_pt2_Itens2">
+                                            <img src="../../img/Home_Logout_menuDoadorICO.svg" alt="">
+                                            <a href="#">SAIR</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+
+                            <div id="menu_notifique2">
+                                <div id="menu_not_pt1">
+                                    <div>
+                                        <h5>NOTIFICAÇÕES</h5>
+                                        <a  href="#" onclick="abrirFecharNote2()">
+                                            <img src="../../img/exit.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                                <div id="menu_not_pt2">
+                                    <section>
+                                        <div>
+                                            <div id="menu_not_pt2_Itens">
+                                                <img src="../../img/img_Notification_001.png" alt="">
+                                                <div class="conteudo_notifique2">
+                                                    <span>Você tem uma nova doação agendada!</span>
+                                                    <p>A <strong>ReciclaTudo</strong> tem interesse em seu material publicado, clique no botão abaixo para vizualizar o agendamento e confirmar o horário!</p>
+                                                    <div class="btn_notifique2">
+                                                        <a href="#">visualisar</a> 
+                                                    </div>
+                                                    
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </section>
+                                    <section>
+                                        <div>
+                                            <div id="menu_not_pt2_Itens">
+                                                <img src="../../img/img_Notification_002.png" alt="">
+                                                <div class="conteudo_notifique2">
+                                                    <span>Agendamento confirmado</span>
+                                                    <p>Você confirmou o horário de agendamento para o dia  <strong>15/05/23 às 10:00hrs</strong> com sucesso. A <strong>EcoNorte</strong> irá fazer a coleta no dia e horário agendado.</p>
+                                                    <div class="btn_notifique2">
+                                                        <a href="#">visualisar</a> 
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                            <a  href="#" onclick="abrirFechar2()">
+                                <img src="../../img/Home_ico_User.svg" alt="Icone de Logado">
+                                <p>Lúis</p>
+                                <img id="seta_BAXIO" src="../../img/Home_ico_setaBaixo.svg" alt="Icone de Menu pra baixo">
+                            </a>
+                        </div>
+                        <a href="#" onclick="abrirFecharNote2()">
+                            <img src="../../img/Home_ico_notificacao.svg" alt="Icone de Notificação">
+                        </a>
+                </div>
             </nav>
         </div>
     </header>
     <main>
-        <h1>página doacoes finalizadas ecosystem & recycle</h1>
-
-      <section>
-        <div class="wrapper separacao_conteudo">
-            <aside>
-                <!-- <a href="#">Quero Doar</a>
-                <a href="#">Visualizar Minhas Doações</a>
-                <a href="#">Editar Perfil</a> -->
-                <ul>
-					<a href="#"><li>Quero Doar</li></a>
-					<a href="#"><li class="linha2">visualizar doacoes</li></a>
-					<a href="#"><li>Editar perfil</li></a>
-					
-				</ul>
-            </aside>  
-            
-            <div class="menu_direito">
-                <div class="#">
-                    <h2>Minhas doacoes</h2>
-                    <p class="espaco_espaco">visualize todas as suas publicacoes aqui</p>
-                </div>
-                <div class="link_menu_direito">
-                    <a href="#">Doacoes Ativas</a>
-                    <a href="#">Doacoes Finalizadas</a>
-                </div>
-                <div class="nada_consta">
-                    <p>voce nao possuei doacoes finalizadas no sistema</p>
-                    <img src="../../img/cadeado.png" alt="">
-                    <a class="botaoVoltar" href="#">voltar</a>
+        <h1>página minhas doações finalizadas ecosystem & recycle</h1>
+        <section>
+            <div class="conteudo_doacoes wrapper">
+                <aside>
+                    <ul>
+                        <li><a href="#">quero doar</a></li>
+                        <li><a href="#">visualizar minhas doações</a></li>
+                        <li><a href="#">editar perfil</a></li>
+                    </ul>
+                </aside>
+                <div class="menu_Direito">
+                    <div class="title">
+                        <h2>minhas doações!</h2>
+                        <p>Visualize todas as suas publicações aqui.</p>
+                    </div>
+                    <div>
+                        <div class="links_pags">
+                            <a href="#">doações ativas</a>
+                            <span>|</span>
+                            <a href="#">doações finalizadas</a>
+                        </div>
+                        <div class="historic_cards">
+                    
+    
+                            <div class="Conteudo_Cards">
+                                <span>Você não possui doações finalizadas no sistema</span>
+                                <img src="../../img/cadeado.png" alt="Imagem de cadeado">
+                              
+                            
+                            </div>
+                            <div class="btnVoltar">
+                                <a href="#">voltar</a>
+                            </div>
+                    </div>
+                    </div>
+                   
                 </div>
             </div>
-        </div>
         </section>
-    
+      
     
     </main>
 	<footer>
