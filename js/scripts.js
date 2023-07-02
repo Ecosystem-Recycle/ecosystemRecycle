@@ -91,6 +91,11 @@ function logar(){
     }
 };
 
+//Função para redirecionar para a index
+function redirecionar(){
+  window.location.href='Pages/Tela_Home/index.html';
+}
+
 //Função de passar Slides do carrousel -> HOME
 var swiper = new Swiper(".swiper", {
     cssMode: true,
@@ -109,3 +114,24 @@ var swiper = new Swiper(".swiper", {
     keyboard: true,
   });
   
+//Função Esconder Menus -> DUVIDAS
+//   const toggles = document.querySelectorAll('.faq-toggle');
+
+// toggles.forEach(toggle => {
+//   toggle.addEventListener('click', () => {
+//     toggle.parentNode.classList.toggle('active');
+//   });
+// });
+
+// // SOCIAL PANEL JS
+// const floating_btn = document.querySelector('.floating-btn');
+// const close_btn = document.querySelector('.close-btn');
+// const social_panel_container = document.querySelector('.social-panel-container');
+
+// floating_btn.addEventListener('click', () => {
+//   social_panel_container.classList.toggle('visible')
+// });
+
+// close_btn.addEventListener('click', () => {
+//   social_panel_container.classList.remove('visible')
+// });
