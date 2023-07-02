@@ -25,7 +25,6 @@
 header{
     background: var(--verde1);
     height: 80px;
-
     display: flex;
     align-items: center;
 
@@ -377,7 +376,7 @@ aside a{
 
 /* ####### Estilização do Elemento selecionado no ASIDE ########## */
 
-aside li:nth-child(2) a  {
+aside li:nth-child(1) a  {
     color:var(--roxo);
     font-weight: 900;
     border: 3px solid var(--roxo);
@@ -457,6 +456,14 @@ aside li:nth-child(2) a  {
     margin-bottom: 25px;
 }
 
+.nada_consta{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 30px 0;
+}
+
 .nada_consta>p:nth-child(1) {
     font-weight: 600;
     font-size: 22px;
@@ -526,10 +533,9 @@ aside li:nth-child(2) a  {
 
 }
 
-.nada_consta>img {
-    width: 30 35px;
-    height: 25 245px;
-  
+.nada_consta form {
+    width: 77%;
+    margin: 0 auto;
 }
 
 .menu_direito>a {
@@ -544,15 +550,12 @@ aside li:nth-child(2) a  {
     
 }
 
-.imagem_botao img {
+
+
+.imagem_botao{
     display: flex;
     justify-content: center;
-    /* background-color: #EAF207; */
-}
-
-.imagem_botao img {
-    width: 30px;
-    height: 30px;
+    margin-top: 15px;
 }
 
 
