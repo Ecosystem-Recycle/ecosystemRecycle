@@ -307,16 +307,20 @@ footer{
         position: absolute;
         align-items: center;
 
-        left: 150;
+        right: 30px;
         top: 80px;
-        z-index: 1;
+        z-index: 3;
 
         width: 200px;
         background-color: var(--verde1);
-        padding: 20px 0;
+        padding: 5px 0 10px 0;
 
 
         box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    }
+
+    .underline{
+        margin: 10px 0 5px 0;
     }
 
     .div_footerPosition{

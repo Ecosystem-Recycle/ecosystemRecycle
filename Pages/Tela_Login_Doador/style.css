@@ -11,6 +11,7 @@
     --verde1: #045328;
     --branco: #fff;
     --roxo: #9319CC;
+    --cinza: rgb(187, 185, 185, 0.4);
 }
 
 
@@ -109,83 +110,54 @@ h1 {
     overflow: hidden;
 }
 
-/* #### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
 
-
-
-
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-#### COLE SEU CÓDIGO A PARTIR DAQUI ######### 
-
-
-################################################## */
 
 .sessao_formulario_login {
     display: flex;
-    margin: 100px;
+    margin: 50px 100px;
     justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.sessao_formulario_login input{
+    padding-left: 10px;
 }
 
 .formulario_login {
-    width: 500px;
+    max-width: 500px;
+    width: 90%;
     height: 600px;
     display: flex;
-    background-color: #9c9c9c;
+    background-color: var(--cinza);
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
     border-radius: 15px;
-    padding: 10px 100px;
+    margin: 50px 10px;
 }
 
 
 .formulario_login label,
 .formulario_cadastro label {
-    width: 350px;
+    max-width: 350px;
+    width: 68%;
     height: 10px;
 }
 
+
+
 .formulario_cadastro {
-    width: 500px;
-    background-color: #9c9c9c;
+    max-width: 500px;
+    width: 90%;
+    background-color: var(--cinza);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 15px;
-
-    border: 5px;
-
-
+    margin: 50px 10px;
+    padding-top: 50px;
 }
 
 .formulario_cadastro h2 {
@@ -193,40 +165,50 @@ h1 {
 }
 
 .formulario_botao {
-    width: 100px;
+    max-width: 150px;;
+    width: 30%;
     font-size: 16px;
+    font-weight: bold;
     font-family: var(--font1);
     color: var(--roxo);
     border: 3px solid var(--roxo);
     margin-top: 20px;
-    border-radius: 15px;
+    border-radius: 10px;
 
     margin-bottom: 40px;
 }
+
 .formulario_login a{
-    width: 250px;
-    font-size: 16px;
+    display: flex;
+    align-items: center;
+
+    font-weight: 800;
     font-family: var(--font1);
     color: var(--roxo);
-    border: 3px solid var(--roxo);
-    margin-top: 20px;
-    border-radius: 15px;
 
-    margin-bottom: 40px;
+    border: 3px solid var(--roxo);
+    border-radius: 35px;
+
+    margin: 20px 0 40px 0;
+    padding: 10px 30px;
+
+
+
+
 }
-.formulario_login input:nth-child(1) {
-    background-color: blue;
+
+.formulario_login a img{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
 }
+
 
 .formulario_login h2 {
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 
-.opcao {
-    display: flex;
-    flex-direction: row;
 
-}
 
 footer {
     background: var(--verde1);
@@ -316,37 +298,37 @@ footer {
 
 
 main input {
-    width: 350px;
+    max-width: 350px;
+    width: 75%;
     height: 40px;
     border-radius: 15px;
     border: 1px solid #6c6b6b;
 }
 
 .opcao {
-    width: 350px;
+    width: 90%;
+    max-width: 350px;
     display: flex;
     justify-content: space-between;
-    border: 5px;
+}
+
+.opcao_doador, .opcao_coletor{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
 }
 
 .opcao label {
-    width: 220px;
-}
-
-.opcao div {
-    display: flex;
-    justify-content: start;
+    width: 100%;
+    margin-left: 5px;
 }
 
 main input[type="radio"] {
     width: 20px;
     height: 18px;
-
-
 }
 
 main label {
-
     display: flex;
     font-size: 16px;
     font-family: var(--font2);
@@ -403,17 +385,22 @@ main label {
         position: absolute;
         align-items: center;
 
-        left: 150;
+        right: 30px;
         top: 80px;
-        z-index: 1;
+        z-index: 2;
 
         width: 200px;
         background-color: var(--verde1);
-        padding: 20px 0;
+        padding: 0 0 10px 0;
 
 
         box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
     }
+
+    .underline{
+        margin: 10px 0 5px 0;
+    }
+
 
     .div_footerPosition {
         flex-direction: column;
@@ -435,25 +422,28 @@ main label {
 } */
 
 @media screen and (max-width: 812px) {
-    .div_banner2 {
-        flex-wrap: wrap;
+    .sessao_formulario_login {
+        margin: 50px 20px;
     }
-
-    .div_banner2 div {
-        padding-bottom: 30px;
-    }
+    
 }
 
 
 @media screen and (max-width: 580px) {
-    .div_banner img {
-        max-height: 300px;
+    .sessao_formulario_login {
+        margin: 20px 10px;
+    }
+
+    .opcao {
+        width: 70%;
+    }
+
+    .formulario_login a {
+        width: 70%;
+        font-size: 14px;
+        margin: 20px 0 40px 0;
+        padding: 5px 15px;
+        justify-content: space-around;
     }
 }
 
-
-@media screen and (max-width: 454px) {
-    .div_banner img {
-        display: none;
-    }
-}
