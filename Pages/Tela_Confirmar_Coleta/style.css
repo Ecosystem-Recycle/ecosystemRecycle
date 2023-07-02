@@ -134,6 +134,7 @@ header nav{
     margin-bottom: 10px;
 }
 
+<<<<<<< HEAD:Pages/Tela_Confirmar_Coleta/style.css
 /* #menu_login_pt2 img{
     width: 90px;
     height: 90px;
@@ -141,6 +142,8 @@ header nav{
 } */
 
 
+=======
+>>>>>>> 290439655a31bee6d4870891e0aede43835db925:Pages/Tela_Coletas_Confirmada/style.css
 #menu_not_pt2 img{
     width: 90px;
     height: 90px;
@@ -344,14 +347,8 @@ aside li:nth-child(2){
 
 
 
-aside a{
-    color: black;
-    font-family: var(--font2);
-    font-size: 16px;
-    text-transform: capitalize;
-    font-weight: 600;
-    padding: 0 15px;   
-}
+
+
 
 
 
@@ -365,6 +362,18 @@ aside li:nth-child(2) a  {
     padding: 5px 15px;
     background: rgba(159, 47, 187, 0.30);
 }
+
+aside a{
+    color: black;
+    font-family: var(--font2);
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding: 0 15px;
+
+}
+
+
 
 .menu_Direito{
     display: flex;
@@ -489,16 +498,20 @@ aside li:nth-child(2) a  {
     border-radius: 15px;
 }
 
-.dados_doacao1 h4, .dados_parceiro h4, .dados_horario h4{
+.dados_doacao1 h4, .dados_parceiro h4, .dados_horario h4, .dados_responsavel h4{
     font-family: var(--font2);
     font-size: 21px;
     font-weight: 600;
     padding-bottom: 34px;
 }
 
-.dados_doacao1 p, .dados_parceiro p, .dados_horario p{
+.dados_doacao1 p, .dados_parceiro p, .dados_horario p .dados_responsavel p{
     font-family: var(--font2);
     font-size: 13px;
+}
+
+.dados_responsavel p{
+    margin-bottom: 150px;
 }
 
 .dados_doacao1 span{
