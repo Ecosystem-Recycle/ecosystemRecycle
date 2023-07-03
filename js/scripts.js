@@ -114,6 +114,22 @@ var swiper = new Swiper(".swiper", {
     keyboard: true,
   });
   
+//Mensagens dos botões
+function msgSalvarDoacao(){
+  alert('Doação cadastrada com sucesso! Em breve um parceiro irá entrar em contato');
+};
+
+function msgExcluirDoacao(){
+  alert('Doação deletada do sistema com sucesso!');
+};
+
+function msgConfirmarColeta(){
+  alert('A sua doação foi agendada! Separe o material e aguarde o coletor vir retira-lo.');
+};
+
+
+
+
 //Função Esconder Menus -> DUVIDAS
 //   const toggles = document.querySelectorAll('.faq-toggle');
 
