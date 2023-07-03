@@ -617,8 +617,8 @@ footer{
         padding-top: 30px;
     }
 
-    .txt_chamativo1 p{
-        padding: 10px 150px;
+    .txt_chamativo1 p {
+        padding: 30px 20px;
     }
 
     .txtBtn_banner p{
@@ -686,15 +686,44 @@ footer{
         margin: 50px 0;
     }
 
+    .txtBtn_banner p {
+        padding: 50px 45px;
+    }
+
     .exe_conteudo{
         flex-wrap: wrap;
         justify-content: center;
         text-align: center;
     }
 
+    .exe_conteudo div{
+        width: 100%;
+        text-align: center;
+    }
+
     .exe_conteudo img{
         margin-bottom: 30px;
         padding: 0;
+    }
+
+    .foot_midiasBoletim{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .foot_botetim{
+        flex-wrap:wrap;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .foot_botetim input {
+        font-size: 14px;
+        padding: 4px 40px 4px 10px;
+        margin: 0 0 10px 0;
+        /* width: 90%; */
     }
 
     
