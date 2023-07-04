@@ -374,7 +374,7 @@ aside a{
 
 /* ####### Estilização do Elemento selecionado no ASIDE ########## */
 
-aside li:nth-child(3) a  {
+aside li:nth-child(1) a  {
     color:var(--roxo);
     font-weight: 900;
     border: 3px solid var(--roxo);
@@ -452,13 +452,13 @@ aside li:nth-child(3) a  {
     font-family: var(--font2);
 }
 
-.btnVoltar{
+.btnRetirar{
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-.btnVoltar > a{
+.btnRetirar > a{
     border-radius: 15px;
     border: 4px solid var(--roxo);
     padding: 2px 35px;
@@ -506,14 +506,20 @@ aside li:nth-child(3) a  {
     border-radius: 15px;
 }
 
-.dados_doacao1 h4, .dados_parceiro h4, .dados_horario h4{
+.dados_doacao1 h4, 
+.dados_responsavel h4, 
+.dados_horario h4, 
+.dados_local h4{
     font-family: var(--font2);
     font-size: 21px;
     font-weight: 600;
     padding-bottom: 34px;
 }
 
-.dados_doacao1 p, .dados_parceiro p, .dados_horario p{
+.dados_doacao1 p, 
+.dados_responsavel p, 
+.dados_horario p, 
+.dados_local p{
     font-family: var(--font2);
     font-size: 13px;
 }
@@ -523,7 +529,8 @@ aside li:nth-child(3) a  {
     padding-bottom: 10px;
 }
 
-.dados_parceiro{
+.dados_responsavel, 
+.dados_local{
     padding-bottom: 30px;
 }
 
@@ -531,6 +538,7 @@ aside li:nth-child(3) a  {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    margin-bottom: 10px;
 }
 
 .dados_horario div{
@@ -554,31 +562,12 @@ aside li:nth-child(3) a  {
     margin-bottom: 15px;
 }
 
-.form_obs{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-.form_obs textarea{
-
-    border: 1px solid var(--cinza);
-    border-radius: 10px;
-    font-family: var(--font2);
-    font-size: 14px;
-    font-weight: 500;
-    padding: 5px 0 0 10px;
-    resize: vertical;
-    width: 100%;
-    margin-bottom: 40px;
-}
-
-.btnVoltar{
+.btnRetirar{
     display: flex;
     justify-content: space-around;
 }
 
-.btnVoltar a{
+.btnRetirar a{
     color: var(--roxo);
     font-size: 20;
     font-weight: 800;
@@ -774,7 +763,7 @@ footer{
         font-size: 19px;
     }
 
-    .btnVoltar > a{
+    .btnRetirar > a{
         font-size: 15px;
     }
 

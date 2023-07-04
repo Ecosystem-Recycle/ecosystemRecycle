@@ -51,7 +51,7 @@
                                             </div>
                                             <div>
                                                 <img src="../../img/Ico_Parceiro_editar.svg" alt="">
-                                                <a href="../Tela_Editar_Perfil_Parceiro/index.html">EDITAR PERFIL</a>
+                                                <a href="../Tela_Editar_Perfil_Coletor/index.html">EDITAR PERFIL</a>
                                             </div>
                                         </div>
                                         <div id="menu_login_pt2_Itens2">
@@ -162,7 +162,7 @@
                                             </div>
                                             <div>
                                                 <img src="../../img/Ico_Parceiro_editar.svg" alt="">
-                                                <a href="../Tela_Editar_Perfil_Parceiro/index.html">EDITAR PERFIL</a>
+                                                <a href="../Tela_Editar_Perfil_Coletor/index.html">EDITAR PERFIL</a>
                                             </div>
                                         </div>
                                         <div id="menu_login_pt2_Itens2">
@@ -237,13 +237,13 @@
                     <ul>
                         <li><a href="../Tela_Coletas_Agendadas/index.html">coletas agendadas</a></li>
                         <li><a href="../Tela_Buscar_Publicacoes/index.html">Buscar por publicações</a></li>
-                        <li><a href="../Tela_Editar_Perfil_Doador/index.html">editar perfil</a></li>
+                        <li><a href="../Tela_Editar_Perfil_Coletor/index.html">editar perfil</a></li>
                     </ul>
                 </aside>
                 <div class="menu_Direito">
                     <div class="title">
-                        <h2>minhas doações - confirmar Agendamento</h2>
-                        <p>Confirme a data e horário do nosso parceiro</p>
+                        <h2>Coletas Agendadas - Agendamento Confirmado</h2>
+                        <p>Confira o horário do agendamento corretamente.</p>
                     </div>
                     <div>
                         <div class="margem_Doacao">
@@ -267,33 +267,26 @@
                                             <p><span>3x Tablet Samsung Galaxy Tab 2</span>
                                             <p><span>...</span>
                                         <p>Condição: Para desmontagem/Retirada de peças</p>
-                                        <p>Localização: AV do Brasil, N° 1000 - apt 25/Bloco D - SBC - SP CEP: 12345-678</p>
-                                        <p>Disponibilidade de horário para agendamento: Seg - Sex / 09:00 às 14:00</p>
                                     </div>
                                 </div>
-                                <div class="dados_parceiro">
-                                    <h4>Dados do Parceiro</h4>
-                                    <p>Empresa: Recicla Tudo</p>
-                                    <p>Endereço: Rua da reciclagem - Diadema SP / CEP 01234 - 567</p>
-                                </div>
                                 <div class="dados_horario">
-                                    <h4>Horário do coletor para retirada</h4>
+                                    <h4>Horário da retirada</h4>
                                     <div>
                                         <p><span>Data: </span>20/05/23</p>
                                         <p><span>Horário: </span>18:30hrs</p>
                                     </div>
                                 </div>
-                                <div class="form_obs">
-                                    <form>
-                                        <label for="msgObs">Observação:</label>
-                                        <textarea id="msgObs" name="msgObs" rows="10" cols="160"
-                                        placeholder="Complete com algum comentário, dúvida ou sugestão caso necessário..."></textarea>
-                                    </form>
+                                <div class="dados_local">
+                                    <h4>Localização</h4>
+                                    <p>AV do Brasil, N° 1000 - apt 25/Bloco D - SBC - SP CEP: 12345-678</p>
+                                </div>
+                                <div class="dados_responsavel">
+                                    <h4>Responsável:</h4>
+                                    <p>Luís Monteiro</p>
                                 </div>
                             </div>
-                            <div class="btnVoltar">
-                                <a href="#" >confirmar</a>
-                                <a href="#">cancelar</a>
+                            <div class="btnRetirar">
+                                <a href="#" onclick="msgRetirarMaterial()">Retirar Material</a>
                             </div>
                     </div>
                    

@@ -126,9 +126,19 @@ function msgExcluirDoacao(){
 function msgConfirmarColeta(){
   alert('A sua doação foi agendada! Separe o material e aguarde o coletor vir retira-lo.');
 };
+
 function msgDeletarColeta(){
   alert('A doação foi cancelada! O doador irá ser notificado');
 };
+
+
+function msgRetirarMaterial(){
+  alert('Confira todo o material e Confirme a retirada');
+}
+
+function msgSalvarPerfil(){
+  alert('Dados Cadastrado com Sucesso');
+}
 
 
 
