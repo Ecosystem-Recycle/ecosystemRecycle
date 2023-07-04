@@ -126,6 +126,10 @@ function msgExcluirDoacao(){
 function msgConfirmarColeta(){
   alert('A sua doação foi agendada! Separe o material e aguarde o coletor vir retira-lo.');
 };
+function msgDeletarColeta(){
+  alert('A doação foi cancelada! O doador irá ser notificado');
+};
+
 
 
 
