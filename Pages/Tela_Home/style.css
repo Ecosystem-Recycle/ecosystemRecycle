@@ -467,10 +467,7 @@ footer{
 /* ### @Media Responsivo do Header e Footer ### */
 
 @media screen and (max-width: 1250px) {
-    .banner1{
-        height: 100%;
-        padding-bottom: 60px;
-    }
+
 
     .lixo_conteudo h5{
         font-size: 20px;
@@ -506,6 +503,8 @@ footer{
         text-align: center;
         /* padding: 15px 0; */
     }
+    
+    
     
 
 }
@@ -564,6 +563,15 @@ footer{
 
     .underline{
         margin: 10px 0 5px 0;
+    }
+
+    .txt_chamativo1 p {
+        padding: 0 150px;
+    }
+    
+    
+    .txt_chamativo1 {
+        padding: 50px 0px 10px 0;
     }
 
     .div_footerPosition{
@@ -634,7 +642,7 @@ footer{
 
 @media screen and (max-width: 713px) {
     .lixo_conteudo img{
-        padding-left: 10px;
+        padding: 20px 10px 0 10px;
         width: 80%;
     }
 
@@ -653,9 +661,11 @@ footer{
         min-width: 310px;
         padding-right: 10px;
     }
-
-
-
+    
+    .lixo_conteudo {
+        /* display: flex; */
+        justify-content: center;
+    }
 }
 
 @media screen and (max-width: 590px) {
