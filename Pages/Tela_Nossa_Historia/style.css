@@ -332,7 +332,7 @@ footer{
         width: 100%;
         max-width: none;
         height: 50%;
-        padding-bottom: 40px;
+        padding: 60px 0 40px 0;
     }
 
     header{
@@ -410,4 +410,62 @@ footer{
 @media screen and (max-width: 454px) {
     .div_banner img{
     display: none;    }
+}
+
+
+@media screen and (max-width: 532px) {
+    
+
+    .cad_doador, .cad_parceiro{
+        min-width: 250px;
+        width: 90%;
+        margin: 50px 0;
+    }
+
+    .txtBtn_banner p {
+        padding: 50px 45px;
+    }
+
+    .exe_conteudo{
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .exe_conteudo div{
+        width: 100%;
+        text-align: center;
+    }
+
+    .exe_conteudo img{
+        margin-bottom: 30px;
+        padding: 0;
+    }
+
+    .foot_midiasBoletim{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .foot_botetim{
+        flex-wrap:wrap;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .foot_botetim input {
+        font-size: 14px;
+        padding: 4px 40px 4px 10px;
+        margin: 0 10px 10px 10px;
+        /* width: 90%; */
+    }
+
+    .foot_contats > div{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
 }
