@@ -123,7 +123,7 @@ section{
     align-items: center;
     justify-content: center;
     width: 55%;
-    height: 80%;
+    height: 85%;
     border-radius: 20px;
     background-color: rgba(217,217,217,0.5);
 }
@@ -555,5 +555,16 @@ footer{
         padding: 0;
     }
 
+    
+}
+
+
+/* Responsividade da página */
+
+@media screen and (max-width: 1506px) {
+    .mensagemContato>p{
+        font-size: 14px;
+    }
+    .contatos: teste;
     
 }
