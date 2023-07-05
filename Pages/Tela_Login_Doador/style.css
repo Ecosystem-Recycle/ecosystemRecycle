@@ -447,3 +447,53 @@ main label {
     }
 }
 
+@media screen and (max-width: 532px) {
+    .formulario_botao {
+        min-width: 125px;
+        /* margin-top: 30px; */
+    }
+
+    .formulario_cadastro h2,
+    .formulario_login h2 {
+        padding: 0 7px;
+        text-align: center;
+    }
+
+    .opcao label {
+        width: 100%;
+        height: fit-content;
+        margin-left: 5px;
+        font-size: small;
+    }
+
+  
+    
+    .foot_midiasBoletim{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .foot_botetim{
+        flex-wrap:wrap;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .foot_botetim input {
+        font-size: 14px;
+        padding: 4px 40px 4px 10px;
+        margin: 0 10px 10px 10px;
+        /* width: 90%; */
+    }
+
+    .foot_contats > div{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+}
+
+
